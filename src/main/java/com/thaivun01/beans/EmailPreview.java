@@ -24,6 +24,7 @@ public class EmailPreview {
     private StringProperty subject;
     private StringProperty dateRecvd;
 
+   
     public EmailPreview(int id, String from, String subject, Date date) {
         this.id = new SimpleIntegerProperty(id);
         this.subject = new SimpleStringProperty(subject);
@@ -82,12 +83,7 @@ public class EmailPreview {
         LocalDateTime ldt = LocalDateTime.ofInstant(dateRecvd.toInstant(), ZoneId.systemDefault());
         this.dateRecvd.set(ldt.toString());
     }
-    
-    
-    
-    
-    
-    
+     
     
 
 }

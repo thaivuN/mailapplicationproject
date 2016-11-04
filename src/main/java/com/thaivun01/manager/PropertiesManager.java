@@ -33,7 +33,18 @@ public class PropertiesManager {
                 properties.load(fileStream);
             }
             
-            //TO DO: LOAD configuration
+            //LOAD configuration
+            configBean.setUsername(properties.getProperty("username"));
+            configBean.setSenderEmail(properties.getProperty("emailaddress"));
+            configBean.setSenderPass(properties.getProperty("emailpassword"));
+            configBean.setDbUrl(properties.getProperty("databaseurl"));
+            configBean.setDbUser(properties.getProperty("databaseuser"));
+            configBean.setDbPwd(properties.getProperty("databasepassword"));
+            configBean.setDbPortNumber(properties.getProperty("databaseport"));
+            configBean.setImapServerName(properties.getProperty("imapserver"));
+            configBean.setImapPortNumber(properties.getProperty("imapport"));
+            configBean.setServerSMTP(properties.getProperty("smtpserver"));
+            configBean.setSmtpPortNumber(properties.getProperty("smtpport"));
             
             found = true;
         }
@@ -44,7 +55,19 @@ public class PropertiesManager {
     public final void writePropertiesTxtFile(final ConfigurationBean configBean, final String path, final String filename) throws IOException{
         Properties properties = new Properties();
         
-        //TO DO: LOAD PROP
+        //LOAD PROPERTIES
+        properties.setProperty("username", configBean.getUsername());
+        properties.setProperty("emailaddress", configBean.getSenderEmail());
+        properties.setProperty("emailpassword", configBean.getSenderPass());
+        properties.setProperty("databaseurl", configBean.getDbUrl());
+        properties.setProperty("databaseuser", configBean.getDbUser());
+        properties.setProperty("databasepassword", configBean.getDbPwd());
+        properties.setProperty("databaseport", configBean.getDbPortNumber());
+        properties.setProperty("imapserver", configBean.getImapServerName());
+        properties.setProperty("imapport", configBean.getImapPortNumber());
+        properties.setProperty("smtpserver", configBean.getServerSMTP());
+        properties.setProperty("smtpport", configBean.getSmtpPortNumber());
+
         
         Path file = get(path, filename + ".properties");
         

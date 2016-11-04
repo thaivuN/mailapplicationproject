@@ -18,6 +18,8 @@ import javafx.scene.control.TreeItem;
 import javafx.scene.control.TreeView;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * FXML Controller class
@@ -26,6 +28,8 @@ import javafx.scene.layout.AnchorPane;
  */
 public class EmailFolderTreeLayoutController implements Initializable {
 
+    private final Logger log = LoggerFactory.getLogger(getClass().getName());
+    
     @FXML
     private AnchorPane folderTreeFxLayout;
 
@@ -35,8 +39,8 @@ public class EmailFolderTreeLayoutController implements Initializable {
     @FXML
     private ResourceBundle resources;
 
-    
     private EmailTableLayoutController emailTableLayoutController;
+    
     
     private EmailDAO mailDAO;
     private ConfigurationBean configBean;

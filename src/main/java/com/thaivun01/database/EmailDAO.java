@@ -7,6 +7,7 @@ package com.thaivun01.database;
 
 import com.thaivun01.beans.BoostedEmail;
 import com.thaivun01.beans.ConfigurationBean;
+import com.thaivun01.beans.EmailPreview;
 import com.thaivun01.beans.FolderBean;
 import java.sql.SQLException;
 import java.util.ArrayList;
@@ -21,6 +22,11 @@ public interface EmailDAO {
     
     /** Folder **/
     
+     /**
+     * Get an observable list of all FolderBeans
+     * @return Observable list of FolderBean objects
+     * @throws SQLException 
+     */
     public ObservableList<FolderBean> getAllFoldersTree() throws SQLException;
     
     /**
@@ -83,6 +89,7 @@ public interface EmailDAO {
      */
     public int deleteEmail(int id) throws SQLException;
     
-    
+    public ObservableList<EmailPreview> getEmailPreviewByFolder(int folder_id) throws SQLException;
+    public BoostedEmail getEmailById(int email_id) throws SQLException;
    
 }

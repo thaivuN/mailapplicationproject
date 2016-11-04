@@ -7,6 +7,7 @@ package com.thaivun01.database;
 
 import com.thaivun01.beans.BoostedEmail;
 import com.thaivun01.beans.ConfigurationBean;
+import com.thaivun01.beans.EmailPreview;
 import com.thaivun01.beans.FolderBean;
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -16,6 +17,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.sql.Timestamp;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -41,6 +43,11 @@ public class EmailDAOImpl implements EmailDAO {
         this.config = config;
     }
 
+    /**
+     * Get an observable list of all FolderBeans
+     * @return Observable list of FolderBean objects
+     * @throws SQLException 
+     */
     @Override
     public ObservableList<FolderBean> getAllFoldersTree() throws SQLException {
         ArrayList<FolderBean> fetchedFolders = getAllFolders();
@@ -53,6 +60,8 @@ public class EmailDAOImpl implements EmailDAO {
         
         return folders;
     }
+    
+    
 
     
     
@@ -639,5 +648,51 @@ public class EmailDAOImpl implements EmailDAO {
             }
         }
     }
+
+    @Override
+    public ObservableList<EmailPreview> getEmailPreviewByFolder(int folder_id) throws SQLException {
+        String query = "SELECT EMAIL_ID, EMAIL_FROM, EMAIL_SUBJECT, "
+                + "RECEIVED_DATE "
+                + "FROM EMAIL WHERE FOLDER_ID = ?";
+        
+        ObservableList<EmailPreview> previews = FXCollections.observableArrayList();
+        
+        try(Connection c = DriverManager.getConnection(config.getDbUrl(),
+                config.getDbUser(), config.getDbPwd());
+                PreparedStatement ps = c.prepareStatement(query);){
+            
+            ps.setInt(1, folder_id);
+            
+            try(ResultSet rs = ps.executeQuery();){
+                
+                while(rs.next()){
+                    
+                    int email_id = rs.getInt(1);
+                    String email_from = rs.getString(2);
+                    String email_subject = rs.getString(3);
+                    Date date = rs.getTimestamp(4);
+                    
+                    EmailPreview mailPreview = new EmailPreview(email_id, email_from, email_subject, date);
+                    previews.add(mailPreview);
+                    
+                }
+                
+                return previews;
+            }
+        }
+        
+    }
+
+    @Override
+    public BoostedEmail getEmailById(int email_id) throws SQLException {
+        try(Connection c = DriverManager.getConnection(config.getDbUrl(),
+                config.getDbUser(), config.getDbPwd());){
+            
+            BoostedEmail email = assembleEmail(c, email_id);
+            return email;
+        }
+    }
+    
+    
 
 }
