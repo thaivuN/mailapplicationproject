@@ -6,6 +6,7 @@
 package com.thaivun01.database;
 import com.thaivun01.beans.BoostedEmail;
 import com.thaivun01.beans.ConfigurationBean;
+import com.thaivun01.beans.EmailPreview;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;
@@ -25,6 +26,7 @@ import java.util.Collection;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Scanner;
+import javafx.collections.ObservableList;
 import jodd.mail.EmailAttachment;
 import org.junit.Before;
 import org.junit.Test;
@@ -458,6 +460,25 @@ public class EmailDAOImplTest {
         
         assertEquals(1, rowDel);
         
+        
+    }
+    
+    @Test
+    public void testGetObservableEmailPreviews() throws Exception{
+        BoostedEmail be = new BoostedEmail();
+        be =(BoostedEmail) be.from(config.getSenderEmail()).subject("Test Messages").addHtml("<h1>Hello World</h1> <img src='cid:me_picture_test.png' />")
+                .to(new String[] {config.getSenderEmail(), "nyan11@gmail.com"})
+                .cc("hello@gmail.com")
+                .bcc("bye@gmail.com");
+        
+        be.embed(EmailAttachment.attachment().bytes(new File("me_picture_test.png")));
+        be.setReceivedDate(Timestamp.valueOf(LocalDateTime.now()));
+        
+        dao.saveEmail(be);
+        
+        ObservableList<EmailPreview> previews = dao.getEmailPreviewByFolder(1);
+        
+        assertTrue(previews.size() > 0);
         
     }
     
