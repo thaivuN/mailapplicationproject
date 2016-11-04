@@ -12,8 +12,9 @@
    <children>
       <TableView fx:id="emailTableView" prefHeight="419.0" prefWidth="420.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
         <columns>
-          <TableColumn prefWidth="75.0" text="C1" />
-          <TableColumn prefWidth="75.0" text="C2" />
+          <TableColumn fx:id="subjectColumnView" prefWidth="144.0" text="%subjectTable" />
+          <TableColumn fx:id="fromColumnView" prefWidth="168.0" text="%fromTable" />
+            <TableColumn fx:id="dateColumnView" prefWidth="107.0" text="%dateTable" />
         </columns>
       </TableView>
    </children>
