@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.thaivun01.database.EmailDAOImplTest
--------------------------------------------------------------------------------
-Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 52.832 sec - in com.thaivun01.database.EmailDAOImplTest

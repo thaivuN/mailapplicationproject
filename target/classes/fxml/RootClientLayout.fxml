@@ -9,24 +9,15 @@
         <URL value="@/styles/rootclientlayout.css" />
     </stylesheets>
    <children>
-      <SplitPane dividerPositions="0.5513784461152882" orientation="VERTICAL" prefHeight="800.0" prefWidth="1000.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <SplitPane dividerPositions="0.20180722891566266" prefHeight="800.0" prefWidth="1000.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
         <items>
-          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+          <AnchorPane fx:id="leftContainer" minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" />
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
                <children>
-                  <SplitPane dividerPositions="0.2429718875502008" prefHeight="396.0" prefWidth="998.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                  <SplitPane dividerPositions="0.5" orientation="VERTICAL" prefHeight="730.0" prefWidth="792.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                     <items>
-                      <AnchorPane fx:id="upperLeftPane" minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" />
-                      <AnchorPane fx:id="upperRightPane" minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" />
-                    </items>
-                  </SplitPane>
-               </children>
-            </AnchorPane>
-          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="523.0" prefWidth="998.0">
-               <children>
-                  <SplitPane dividerPositions="0.2991967871485944" layoutY="48.0" prefHeight="396.0" prefWidth="998.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
-                    <items>
-                      <AnchorPane fx:id="lowerLeftPane" minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" />
-                      <AnchorPane fx:id="lowerRightPane" minHeight="0.0" minWidth="0.0" prefHeight="382.0" prefWidth="695.0" />
+                      <AnchorPane fx:id="rightTopContainer" minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" />
+                      <AnchorPane fx:id="rightBottomContainer" minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" />
                     </items>
                   </SplitPane>
                </children>

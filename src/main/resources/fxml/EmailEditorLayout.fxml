@@ -1,63 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextField?>
-<?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.layout.HBox?>
-<?import javafx.scene.layout.VBox?>
-<?import javafx.scene.text.Font?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.web.HTMLEditor?>
 
-<AnchorPane id="AnchorPane" prefHeight="431.0" prefWidth="604.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.60" fx:controller="com.thaivun01.controllers.EmailEditorLayoutController">
-    <stylesheets>
-        <URL value="@/styles/emaileditorlayout.css" />
-    </stylesheets>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="387.0" prefWidth="610.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
+  <columnConstraints>
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="195.0" minWidth="0.0" prefWidth="33.0" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="572.0" minWidth="10.0" prefWidth="126.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="572.0" minWidth="0.0" prefWidth="23.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="572.0" minWidth="10.0" prefWidth="254.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="572.0" minWidth="10.0" prefWidth="185.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="572.0" minWidth="10.0" prefWidth="25.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints maxHeight="30.0" minHeight="15.0" prefHeight="53.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="30.0" minHeight="15.0" prefHeight="61.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="72.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="59.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="62.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="90.0" minHeight="10.0" prefHeight="15.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="124.0" minHeight="0.0" prefHeight="83.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="79.0" minHeight="10.0" prefHeight="79.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="20.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="20.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="40.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+  </rowConstraints>
    <children>
-      <VBox layoutX="-5.0" layoutY="-1.0" prefHeight="143.0" prefWidth="609.0">
-         <children>
-            <HBox prefHeight="100.0" prefWidth="609.0">
-               <children>
-                  <Label alignment="CENTER" prefHeight="22.0" prefWidth="52.0" text="Label">
-                     <font>
-                        <Font size="14.0" />
-                     </font>
-                  </Label>
-                  <TextField prefHeight="25.0" prefWidth="277.0" />
-               </children>
-            </HBox>
-            <HBox prefHeight="100.0" prefWidth="200.0">
-               <children>
-                  <Label alignment="CENTER" prefHeight="22.0" prefWidth="52.0" text="Label">
-                     <font>
-                        <Font size="14.0" />
-                     </font>
-                  </Label>
-                  <TextField prefHeight="25.0" prefWidth="277.0" />
-               </children>
-            </HBox>
-            <HBox prefHeight="100.0" prefWidth="200.0">
-               <children>
-                  <Label alignment="CENTER" prefHeight="22.0" prefWidth="52.0" text="Label">
-                     <font>
-                        <Font size="14.0" />
-                     </font>
-                  </Label>
-                  <TextField prefHeight="25.0" prefWidth="277.0" />
-               </children>
-            </HBox>
-            <HBox prefHeight="100.0" prefWidth="200.0">
-               <children>
-                  <Label alignment="CENTER" prefHeight="22.0" prefWidth="52.0" text="Label">
-                     <font>
-                        <Font size="14.0" />
-                     </font>
-                  </Label>
-                  <TextField prefHeight="25.0" prefWidth="277.0" />
-               </children>
-            </HBox>
-         </children>
-      </VBox>
-      <HTMLEditor htmlText="&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body contenteditable=&quot;true&quot;&gt;&lt;/body&gt;&lt;/html&gt;" layoutY="142.0" prefHeight="258.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="142.0" />
+      <Label text="%subjectEmail" GridPane.columnIndex="1" GridPane.halignment="CENTER" />
+      <Label layoutX="79.0" layoutY="42.0" text="%fromEmail" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+      <Label text="%ccEmail" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="3" />
+      <Label text="%bccEmail" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="4" />
+      <Label text="%toEmail" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
+      <HTMLEditor htmlText="&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body contenteditable=&quot;true&quot;&gt;&lt;/body&gt;&lt;/html&gt;" prefHeight="200.0" prefWidth="506.0" GridPane.columnIndex="1" GridPane.columnSpan="4" GridPane.rowIndex="6" GridPane.rowSpan="4" />
+      <TextField GridPane.columnIndex="3" />
+      <TextField GridPane.columnIndex="3" GridPane.rowIndex="1" />
+      <TextField GridPane.columnIndex="3" GridPane.rowIndex="2" />
+      <TextField GridPane.columnIndex="3" GridPane.rowIndex="3" />
+      <TextField GridPane.columnIndex="3" GridPane.rowIndex="4" />
+      <Button mnemonicParsing="false" text="Button" GridPane.columnIndex="3" GridPane.rowIndex="11" />
+      <Button mnemonicParsing="false" text="Button" GridPane.columnIndex="4" GridPane.rowIndex="11" />
    </children>
-</AnchorPane>
+</GridPane>

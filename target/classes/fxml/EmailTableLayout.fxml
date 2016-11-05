@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.net.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import java.net.URL?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.thaivun01.controllers.EmailTableLayoutController">
+<AnchorPane id="AnchorPane" fx:id="emailTableFxLayout" prefHeight="419.0" prefWidth="420.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.thaivun01.controllers.EmailTableLayoutController">
     <stylesheets>
-        <URL value="@/styles/emailtablelayout.css"/>
+        <URL value="@/styles/emailtablelayout.css" />
     </stylesheets>
+   <children>
+      <TableView fx:id="emailTableView" prefHeight="419.0" prefWidth="420.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columns>
+          <TableColumn fx:id="subjectColumnView" prefWidth="144.0" text="%subjectTable" />
+          <TableColumn fx:id="fromColumnView" prefWidth="168.0" text="%fromTable" />
+            <TableColumn fx:id="dateColumnView" prefWidth="107.0" text="%dateTable" />
+        </columns>
+      </TableView>
+   </children>
 </AnchorPane>

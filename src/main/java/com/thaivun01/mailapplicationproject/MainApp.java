@@ -2,6 +2,7 @@ package com.thaivun01.mailapplicationproject;
 
 import com.thaivun01.beans.ConfigurationBean;
 import com.thaivun01.controllers.ConfigFormController;
+import com.thaivun01.controllers.TopLevelContainerLayoutController;
 import com.thaivun01.manager.PropertiesManager;
 import java.io.IOException;
 import java.util.Locale;
@@ -12,30 +13,37 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
+import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 
 public class MainApp extends Application {
 
     private Stage stage;
+    private ConfigFormController formController;
+    private TopLevelContainerLayoutController topLevelController;
     
     
     @Override
     public void start(Stage stage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("/fxml/Scene.fxml"));
         this.stage = stage;
-        //Scene scene = new Scene(root);
-        //scene.getStylesheets().add("/styles/Styles.css");
+        
 
         Scene formScene = createConfigForm();
-        Scene mainScene = createRootLayout();
+        Scene mainScene = createMainLayout();
         
         if (propertiesExists()){
+            
             this.stage.setScene(mainScene);
             this.stage.setTitle("Mail Application");
+            topLevelController.loadConfigBean();
+            topLevelController.loadRootLayout();
         }
         else{
             this.stage.setScene(formScene);
             this.stage.setTitle("Configuration Form");
+            formController.setMainScene(mainScene, stage, topLevelController);
+            
         }
        
          stage.show();
@@ -59,25 +67,28 @@ public class MainApp extends Application {
         
         loader.setResources(ResourceBundle.getBundle("BundleResources"));
         
-       
         
         Parent root = (AnchorPane) loader.load();
+        formController = loader.getController();
+        
         Scene scene = new Scene(root);
         scene.getStylesheets().add("/styles/configform.css");
         return scene;
     }
     
-    private Scene createRootLayout () throws Exception{
+    private Scene createMainLayout () throws Exception{
         FXMLLoader loader = new FXMLLoader();
-        loader.setLocation(this.getClass().getResource("/fxml/RootClientLayout.fxml"));
+        loader.setLocation(this.getClass().getResource("/fxml/TopLevelContainerLayout.fxml"));
         
         loader.setResources(ResourceBundle.getBundle("BundleResources"));
         
         
-        Parent root = (AnchorPane) loader.load();
+        Parent root = (BorderPane) loader.load();
+        
+        topLevelController = loader.getController();
         
         Scene scene = new Scene (root);
-        scene.getStylesheets().add("/styles/rootclientlayout.css");
+        scene.getStylesheets().add("/styles/toplevelcontainerlayout.css");
         return scene;
     }
     
@@ -88,7 +99,7 @@ public class MainApp extends Application {
         PropertiesManager manager = new PropertiesManager();
         
         try{
-            if (manager.loadPropertiesTxtFile(configBean, "", "MailConfiguration")){
+            if (manager.loadPropertiesTxtFile(configBean, "", "ConfigurationEmail")){
                 found = true;
             }
         }

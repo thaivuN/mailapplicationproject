@@ -35,10 +35,8 @@ public class ConfigurationBean implements Serializable {
      * 
      */
     public ConfigurationBean(){
-        this("", "", "", "");
+        this("smtp.gmail.com", "imap.gmail.com", "", "");
         
-        //this.serverSMTP = "smtp.gmail.com";
-        //this.imapServerName = "imap.gmail.com";
         
     }
     

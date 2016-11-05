@@ -6,7 +6,10 @@
 package com.thaivun01.controllers;
 
 import com.thaivun01.beans.ConfigurationBean;
+import com.thaivun01.business.EmailClient;
+import com.thaivun01.business.EmailClientFace;
 import com.thaivun01.database.EmailDAO;
+import com.thaivun01.database.EmailDAOImpl;
 import com.thaivun01.mailapplicationproject.MainApp;
 import java.io.IOException;
 import java.net.URL;
@@ -49,7 +52,8 @@ public class RootClientLayoutController implements Initializable {
     private EmailEditorLayoutController emailEditorLayoutController;
    
    private ConfigurationBean configBean;
-    private EmailDAO dao;
+   private EmailClientFace  emailClient;
+   private EmailDAO dao;
    
     
     /**
@@ -57,28 +61,35 @@ public class RootClientLayoutController implements Initializable {
      */
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-           loadLeft();
-           loadUpperRight();
+           
+    }    
+    
+    public void loadComponents(){
+
+        
+        loadLeft();
+           //loadUpperRight();
            
            //Pass the Email Table controller to the Folder Tree controller
-           emailFolderTreeLayoutController.setEmailTableLayoutController(emailTableLayoutController);
+           //emailFolderTreeLayoutController.setEmailTableLayoutController(emailTableLayoutController);
            
            try{
                emailFolderTreeLayoutController.displayTree();
-               
                
            }catch(SQLException e){
                log.error(e.getMessage());
            }
            
-    }    
+    }
     
     /**
      * Sets the configuration bean
      * @param configBean 
      */
-    public void setConfigBean (ConfigurationBean configBean){
+    public void setUpActionBeans (ConfigurationBean configBean){
         this.configBean = configBean;
+        this.dao = new EmailDAOImpl(configBean);
+        this.emailClient = new EmailClient(configBean);
     }
     
     private void loadLeft(){
@@ -124,7 +135,16 @@ public class RootClientLayoutController implements Initializable {
     
     
     private void loadLowerRight(){
-        
+        //TO DO LATER
+    }
+    
+    
+    public EmailFolderTreeLayoutController getTreeController(){
+        return emailFolderTreeLayoutController;
+    }
+    
+    public EmailTableLayoutController getTableController(){
+        return emailTableLayoutController;
     }
     
 }

@@ -11,11 +11,14 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.Scene;
+import javafx.scene.control.Alert;
+import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import validator.SuperValidator;
 
 public class ConfigFormController implements Initializable {
     
@@ -58,7 +61,7 @@ public class ConfigFormController implements Initializable {
     
     private Stage stage;
     private Scene scene;
-    private RootClientLayoutController mainProgramController;
+    private TopLevelContainerLayoutController mainProgramController;
     
     public ConfigFormController(){
         super();
@@ -76,7 +79,7 @@ public class ConfigFormController implements Initializable {
         Bindings.bindBidirectional(imapServerConfig.textProperty(), configBean.getServerIMAPProperty());
         Bindings.bindBidirectional(imapPortConfig.textProperty(), configBean.getImapPortProperty());
         Bindings.bindBidirectional(databaseUrlConfig.textProperty(), configBean.getDbUrlProperty());
-        Bindings.bindBidirectional(databaseUserConfig.textProperty(), configBean.getUsernameProperty());
+        Bindings.bindBidirectional(databaseUserConfig.textProperty(), configBean.getDbUserProperty());
         Bindings.bindBidirectional(databasePwdConfig.textProperty(), configBean.getDbPwdProperty());
         Bindings.bindBidirectional(databasePortConfig.textProperty(), configBean.getDbPortProperty());
         
@@ -89,7 +92,7 @@ public class ConfigFormController implements Initializable {
      * @param stage
      * @param mainProgramController 
      */
-    public void setRootController(Scene scene, Stage stage, RootClientLayoutController mainProgramController){
+    public void setMainScene(Scene scene, Stage stage, TopLevelContainerLayoutController mainProgramController){
         this.scene = scene;
         this.stage = stage;
         this.mainProgramController = mainProgramController;
@@ -115,16 +118,39 @@ public class ConfigFormController implements Initializable {
     void onSubmit(ActionEvent event){
         
         PropertiesManager propManager = new PropertiesManager();
+       
         
-        try{
+        if (SuperValidator.validateConfiguration(configBean))
+        {
+            try{
             propManager.writePropertiesTxtFile(configBean, "", "ConfigurationEmail");
             
-            stage.setScene(scene);
-        }
-        catch (IOException ex){
             
+            stage.setScene(scene);
+            mainProgramController.loadConfigBean();
+            mainProgramController.loadRootLayout();
+            
+            }
+            catch (IOException ex){
+            
+            }
         }
+        else
+        {
+            Alert alert = new Alert(AlertType.ERROR);
+            alert.setTitle("ERROR - Bad user input");
+            alert.setHeaderText("Invalid input in the form");
+            alert.setContentText("Your form submission is invalid. Please try again");
+            alert.showAndWait();
+           
+        }
+            
+            
+       
+        
         
     }
+    
+    
 
 }

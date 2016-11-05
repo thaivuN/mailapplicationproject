@@ -8,6 +8,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 
@@ -20,7 +21,8 @@
         <columnConstraints>
           <ColumnConstraints hgrow="SOMETIMES" maxWidth="211.0" minWidth="10.0" prefWidth="187.0" />
             <ColumnConstraints hgrow="SOMETIMES" maxWidth="211.0" minWidth="10.0" prefWidth="29.0" />
-          <ColumnConstraints hgrow="SOMETIMES" maxWidth="280.0" minWidth="10.0" prefWidth="280.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="315.0" minWidth="10.0" prefWidth="315.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="280.0" minWidth="10.0" prefWidth="35.0" />
         </columnConstraints>
         <rowConstraints>
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
@@ -40,19 +42,17 @@
          <children>
             <Label text="%emailAddressConfig" GridPane.halignment="RIGHT" GridPane.rowIndex="2" />
             <Label text="%emailPwdConfig" GridPane.halignment="RIGHT" GridPane.rowIndex="3" />
-            <Label text="%databaseUserConfig" GridPane.halignment="RIGHT" GridPane.rowIndex="6" />
-            <Label text="%databasePwdConfig" GridPane.halignment="RIGHT" GridPane.rowIndex="5" />
-            <TextField id="emailAddressConfig" fx:id="emailAddressConfig" GridPane.columnIndex="2" GridPane.rowIndex="2" />
-            <TextField id="databaseUserConfig" fx:id="databaseUserConfig" GridPane.columnIndex="2" GridPane.rowIndex="6" />
-            <Label text="%subTitleConfig" GridPane.columnSpan="3" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+            <Label text="%databaseUserConfig" GridPane.halignment="RIGHT" GridPane.rowIndex="5" />
+            <Label text="%databasePwdConfig" GridPane.halignment="RIGHT" GridPane.rowIndex="6" />
+            <TextField id="emailAddressConfig" fx:id="emailAddressConfig" promptText="%emailAddPrompt" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <TextField id="databaseUserConfig" fx:id="databaseUserConfig" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+            <Label text="%subTitleConfig" GridPane.columnSpan="4" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
                <font>
                   <Font name="System Bold" size="23.0" />
                </font>
             </Label>
             <PasswordField fx:id="emailPwdConfig" GridPane.columnIndex="2" GridPane.rowIndex="3" />
-            <PasswordField fx:id="databasePwdConfig" GridPane.columnIndex="2" GridPane.rowIndex="5" />
-            <Button mnemonicParsing="false" onAction="#onSubmit" text="%submitBtn" GridPane.halignment="CENTER" GridPane.rowIndex="12" />
-            <Button mnemonicParsing="false" onAction="#onCancel" text="%cancelBtn" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="12" />
+            <PasswordField fx:id="databasePwdConfig" GridPane.columnIndex="2" GridPane.rowIndex="6" />
             <TextField fx:id="databaseUrlConfig" GridPane.columnIndex="2" GridPane.rowIndex="4" />
             <TextField fx:id="databasePortConfig" GridPane.columnIndex="2" GridPane.rowIndex="7" />
             <TextField fx:id="smtpServerConfig" GridPane.columnIndex="2" GridPane.rowIndex="8" />
@@ -66,7 +66,13 @@
             <Label text="%imapConfig" GridPane.halignment="RIGHT" GridPane.rowIndex="10" />
             <Label text="%imapPortConfig" GridPane.halignment="RIGHT" GridPane.rowIndex="11" />
             <Label text="%usernameConfig" GridPane.halignment="RIGHT" GridPane.rowIndex="1" />
-            <TextField fx:id="usernameConfig" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <TextField fx:id="usernameConfig" promptText="%userPrompt" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <HBox prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="12">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#onSubmit" text="%submitBtn" />
+                  <Button mnemonicParsing="false" onAction="#onCancel" text="%cancelBtn" />
+               </children>
+            </HBox>
          </children>
       </GridPane>
    </children>
