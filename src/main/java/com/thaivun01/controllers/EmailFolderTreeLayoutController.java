@@ -51,7 +51,8 @@ public class EmailFolderTreeLayoutController implements Initializable {
      * Initializes the controller class.
      */
     @Override
-    public void initialize(URL url, ResourceBundle rb) {
+    public void initialize(URL location, ResourceBundle resources) {
+        log.info("Resources " + resources );
         //Create root Folder
         FolderBean rootFolder = new FolderBean();
         rootFolder.setFolderName("Root");
@@ -111,7 +112,7 @@ public class EmailFolderTreeLayoutController implements Initializable {
 
         // Build an item for each fish and add it to the root
         if (folders != null) {
-            for (FolderBean folder : folders) {
+            for(FolderBean folder : folders) {
                 TreeItem<FolderBean> item = new TreeItem<>(folder);
                 item.setGraphic(new ImageView(getClass().getResource("/images/folder_icon.png").toExternalForm()));
                 folderTreeView.getRoot().getChildren().add(item);
@@ -132,13 +133,13 @@ public class EmailFolderTreeLayoutController implements Initializable {
      * @param folder 
      */
     public void updateEmailView(TreeItem<FolderBean> folder){
-        /**
+        
         FolderBean folderSelected = folder.getValue();
         try {
             emailTableLayoutController.updateEmailTable(folderSelected.getFolderID());
         } catch (SQLException ex) {
             log.error(ex.getMessage());
         }
-        */
+        
     }
 }

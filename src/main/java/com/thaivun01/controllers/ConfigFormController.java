@@ -71,6 +71,9 @@ public class ConfigFormController implements Initializable {
     @Override
     @FXML
     public void initialize(URL location, ResourceBundle resources) {
+        
+        log.info("Resources " + resources );
+        
         Bindings.bindBidirectional(usernameConfig.textProperty(), configBean.getUsernameProperty());
         Bindings.bindBidirectional(emailAddressConfig.textProperty(), configBean.getEmailAddressProperty());
         Bindings.bindBidirectional(emailPwdConfig.textProperty(), configBean.getEmailPwdProperty());

@@ -43,13 +43,14 @@ public class RootClientLayoutController implements Initializable {
    
    
    @FXML 
-    private ResourceBundle resource;
+    private ResourceBundle resources;
    
    
     //Handle on the controllers
     private EmailTableLayoutController emailTableLayoutController;
     private EmailFolderTreeLayoutController emailFolderTreeLayoutController;
-    private EmailEditorLayoutController emailEditorLayoutController;
+    private EmailHtmlLayoutController emailHtmlLayoutController; 
+
    
    private ConfigurationBean configBean;
    private EmailClientFace  emailClient;
@@ -60,7 +61,9 @@ public class RootClientLayoutController implements Initializable {
      * Initializes the controller class.
      */
     @Override
-    public void initialize(URL url, ResourceBundle rb) {
+    public void initialize(URL location, ResourceBundle resources) {
+        log.info("Resources " + resources );
+        this.resources = resources;
            
     }    
     
@@ -68,13 +71,18 @@ public class RootClientLayoutController implements Initializable {
 
         
         loadLeft();
-           //loadUpperRight();
+        loadUpperRight();
+        loadLowerRight();
            
            //Pass the Email Table controller to the Folder Tree controller
-           //emailFolderTreeLayoutController.setEmailTableLayoutController(emailTableLayoutController);
+           emailFolderTreeLayoutController.setEmailTableLayoutController(emailTableLayoutController);
+           emailTableLayoutController.setEmailHtmlController(emailHtmlLayoutController);
+           emailHtmlLayoutController.setEmailTableController(emailTableLayoutController);
            
            try{
                emailFolderTreeLayoutController.displayTree();
+               emailTableLayoutController.updateEmailTable(1);
+               
                
            }catch(SQLException e){
                log.error(e.getMessage());
@@ -97,7 +105,8 @@ public class RootClientLayoutController implements Initializable {
             
             //Load the controller responsible for the Email Folder Tree
             FXMLLoader loader = new FXMLLoader();
-            loader.setResources(resource);
+            loader.setResources(resources);
+            log.info("Resources  " + resources);
             loader.setLocation(MainApp.class.getResource("/fxml/EmailFolderTreeLayout.fxml"));
             AnchorPane folderTreeView = (AnchorPane) loader.load();
             emailFolderTreeLayoutController = loader.getController();
@@ -106,8 +115,11 @@ public class RootClientLayoutController implements Initializable {
             emailFolderTreeLayoutController.setConfigBean(configBean);
             emailFolderTreeLayoutController.setDaoObject(dao);
             
+           
+            
             //Load the container with the tree view
             leftContainer.getChildren().add(folderTreeView);
+            
             
         } catch (IOException ex) {
             log.error(ex.getMessage());
@@ -117,25 +129,54 @@ public class RootClientLayoutController implements Initializable {
     private void loadUpperRight(){
         try {
             FXMLLoader loader = new FXMLLoader();
-            loader.setResources(resource);
-            loader.setLocation(MainApp.class.getResource("/fxml/EmailTableLayoutController.fxml"));
+            loader.setResources(resources);
+            log.info("Resources  " + resources);
+            loader.setLocation(MainApp.class.getResource("/fxml/EmailTableLayout.fxml"));
             AnchorPane emailTableView = (AnchorPane) loader.load();
+            
+            
             emailTableLayoutController = loader.getController();
             
-            emailTableLayoutController.setConfigBean(configBean);
+     
             emailTableLayoutController.setDaoObject(dao);
+            
+            
             
             rightTopContainer.getChildren().add(emailTableView);
             
+            emailTableView.prefWidthProperty().bind(rightTopContainer.widthProperty());
+            emailTableView.prefHeightProperty().bind(rightTopContainer.heightProperty());
+            
             
         } catch (IOException ex) {
-            java.util.logging.Logger.getLogger(RootClientLayoutController.class.getName()).log(Level.SEVERE, null, ex);
+            log.error(ex.getMessage());
         }
     }
     
     
     private void loadLowerRight(){
-        //TO DO LATER
+        try {
+            FXMLLoader loader = new FXMLLoader();
+            loader.setResources(resources);
+            log.info("Resources  " + resources);
+            loader.setLocation(MainApp.class.getResource("/fxml/EmailHtmlLayout.fxml"));
+            
+            AnchorPane emailDetailView = loader.load();
+            emailHtmlLayoutController = loader.getController();
+            emailHtmlLayoutController.setConfigBean(configBean);
+            emailHtmlLayoutController.setClientBean(emailClient);
+            emailHtmlLayoutController.setDAOActionBean(dao);
+            rightBottomContainer.getChildren().add(emailDetailView);
+            
+            emailDetailView.prefWidthProperty().bind(rightBottomContainer.widthProperty());
+            emailDetailView.prefHeightProperty().bind(rightBottomContainer.heightProperty());
+            
+        } catch (IOException ex) {
+            java.util.logging.Logger.getLogger(RootClientLayoutController.class.getName()).log(Level.SEVERE, null, ex);
+        }
+            
+            
+            
     }
     
     
@@ -145,6 +186,10 @@ public class RootClientLayoutController implements Initializable {
     
     public EmailTableLayoutController getTableController(){
         return emailTableLayoutController;
+    }
+    
+    public EmailHtmlLayoutController getEmailController(){
+        return emailHtmlLayoutController;
     }
     
 }

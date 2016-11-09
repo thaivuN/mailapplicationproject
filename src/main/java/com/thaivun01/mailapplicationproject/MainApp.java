@@ -15,9 +15,12 @@ import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class MainApp extends Application {
 
+    private final Logger log = LoggerFactory.getLogger(getClass().getName());
     private Stage stage;
     private ConfigFormController formController;
     private TopLevelContainerLayoutController topLevelController;
@@ -67,6 +70,7 @@ public class MainApp extends Application {
         
         loader.setResources(ResourceBundle.getBundle("BundleResources"));
         
+        log.info("Resource " + loader.getResources());
         
         Parent root = (AnchorPane) loader.load();
         formController = loader.getController();
@@ -81,7 +85,7 @@ public class MainApp extends Application {
         loader.setLocation(this.getClass().getResource("/fxml/TopLevelContainerLayout.fxml"));
         
         loader.setResources(ResourceBundle.getBundle("BundleResources"));
-        
+        log.info("Resource " + loader.getResources());
         
         Parent root = (BorderPane) loader.load();
         

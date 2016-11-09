@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="772.0" prefWidth="1061.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.thaivun01.controllers.TopLevelContainerLayoutController">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="898.0" prefWidth="1260.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.thaivun01.controllers.TopLevelContainerLayoutController">
    <top>
       <MenuBar BorderPane.alignment="CENTER">
         <menus>
@@ -31,12 +31,17 @@
          <top>
             <ToolBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
               <items>
-                <Button mnemonicParsing="false">
+                <Button mnemonicParsing="false" onAction="#onNewEmail">
                      <graphic>
                         <ImageView fitHeight="56.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true" />
                      </graphic>
                   </Button>
-                  <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false">
+                  <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#onReplyEmail">
+                     <graphic>
+                        <ImageView fitHeight="56.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true" />
+                     </graphic>
+                  </Button>
+                  <Button layoutX="89.0" layoutY="10.0" mnemonicParsing="false" onAction="#onForwardEmail">
                      <graphic>
                         <ImageView fitHeight="56.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true" />
                      </graphic>
@@ -45,7 +50,7 @@
             </ToolBar>
          </top>
          <center>
-            <AnchorPane fx:id="mainBodyAnchorPane" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+            <AnchorPane fx:id="mainBodyAnchorPane" BorderPane.alignment="CENTER" />
          </center>
       </BorderPane>
    </center>

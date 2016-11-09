@@ -1,0 +1,526 @@
+[ERROR] 2016-11-05 21:18:30.148 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:137) - No resources specified.
+file:/F:/javamailproject/mailapplicationproject/target/mailapplicationproject-1.0-SNAPSHOT.jar!/fxml/EmailTableLayout.fxml:15
+
+[ERROR] 2016-11-05 21:25:13.481 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:137) - No resources specified.
+file:/F:/javamailproject/mailapplicationproject/target/mailapplicationproject-1.0-SNAPSHOT.jar!/fxml/EmailTableLayout.fxml:15
+
+[ERROR] 2016-11-05 21:26:46.395 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:137) - No resources specified.
+/F:/javamailproject/mailapplicationproject/target/classes/fxml/EmailTableLayout.fxml:15
+
+[ERROR] 2016-11-05 21:30:24.850 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:137) - No resources specified.
+file:/F:/javamailproject/mailapplicationproject/target/mailapplicationproject-1.0-SNAPSHOT.jar!/fxml/EmailTableLayout.fxml:15
+
+[ERROR] 2016-11-05 21:30:47.828 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:137) - No resources specified.
+file:/F:/javamailproject/mailapplicationproject/target/mailapplicationproject-1.0-SNAPSHOT.jar!/fxml/EmailTableLayout.fxml:15
+
+[ERROR] 2016-11-05 21:36:13.311 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:139) - No resources specified.
+file:/F:/javamailproject/mailapplicationproject/target/mailapplicationproject-1.0-SNAPSHOT.jar!/fxml/EmailTableLayout.fxml:15
+
+[ERROR] 2016-11-05 21:38:19.279 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:123) - Resource null
+[ERROR] 2016-11-05 21:38:19.307 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:139) - No resources specified.
+file:/F:/javamailproject/mailapplicationproject/target/mailapplicationproject-1.0-SNAPSHOT.jar!/fxml/EmailTableLayout.fxml:15
+
+[ERROR] 2016-11-05 21:40:35.555 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:123) - Resource null
+[ERROR] 2016-11-05 21:40:35.576 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:139) - No resources specified.
+file:/F:/javamailproject/mailapplicationproject/target/mailapplicationproject-1.0-SNAPSHOT.jar!/fxml/EmailTableLayout.fxml:15
+
+[ERROR] 2016-11-05 21:41:06.454 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLeft(RootClientLayoutController.java:102) - Resource null
+[ERROR] 2016-11-05 21:41:06.469 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:123) - Resource null
+[ERROR] 2016-11-05 21:41:06.493 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:139) - No resources specified.
+file:/F:/javamailproject/mailapplicationproject/target/mailapplicationproject-1.0-SNAPSHOT.jar!/fxml/EmailTableLayout.fxml:15
+
+[ERROR] 2016-11-05 21:48:39.474 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.loadRootLayout(TopLevelContainerLayoutController.java:88) - Resources  null
+[ERROR] 2016-11-05 21:48:39.484 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLeft(RootClientLayoutController.java:102) - Resource null
+[ERROR] 2016-11-05 21:48:39.497 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:123) - Resource null
+[ERROR] 2016-11-05 21:48:39.521 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:139) - No resources specified.
+file:/F:/javamailproject/mailapplicationproject/target/mailapplicationproject-1.0-SNAPSHOT.jar!/fxml/EmailTableLayout.fxml:15
+
+[ERROR] 2016-11-05 21:51:55.774 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.loadRootLayout(TopLevelContainerLayoutController.java:88) - Resources  null
+[INFO ] 2016-11-05 21:51:55.776 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.loadRootLayout(TopLevelContainerLayoutController.java:89) - Resources  null
+[ERROR] 2016-11-05 21:51:55.787 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLeft(RootClientLayoutController.java:102) - Resource null
+[ERROR] 2016-11-05 21:51:55.800 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:123) - Resource null
+[ERROR] 2016-11-05 21:51:55.820 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:139) - No resources specified.
+file:/F:/javamailproject/mailapplicationproject/target/mailapplicationproject-1.0-SNAPSHOT.jar!/fxml/EmailTableLayout.fxml:15
+
+[INFO ] 2016-11-05 21:55:28.047 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createConfigForm(MainApp.java:73) - Resource java.util.PropertyResourceBundle@78207e0b
+[INFO ] 2016-11-05 21:55:28.181 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createMainLayout(MainApp.java:88) - Resource java.util.PropertyResourceBundle@78207e0b
+[INFO ] 2016-11-05 21:55:28.204 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.loadRootLayout(TopLevelContainerLayoutController.java:88) - Resources  null
+[INFO ] 2016-11-05 21:55:28.216 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLeft(RootClientLayoutController.java:102) - Resources  null
+[INFO ] 2016-11-05 21:55:28.232 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:123) - Resources  null
+[ERROR] 2016-11-05 21:55:28.259 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:139) - No resources specified.
+file:/F:/javamailproject/mailapplicationproject/target/mailapplicationproject-1.0-SNAPSHOT.jar!/fxml/EmailTableLayout.fxml:15
+
+[INFO ] 2016-11-05 21:59:16.434 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createConfigForm(MainApp.java:73) - Resource java.util.PropertyResourceBundle@5a0dffdc
+[INFO ] 2016-11-05 21:59:16.495 [JavaFX Application Thread] com.thaivun01.controllers.ConfigFormController.initialize(ConfigFormController.java:75) - Resources java.util.PropertyResourceBundle@5a0dffdc
+[INFO ] 2016-11-05 21:59:16.563 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createMainLayout(MainApp.java:88) - Resource java.util.PropertyResourceBundle@5a0dffdc
+[INFO ] 2016-11-05 21:59:16.584 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.loadRootLayout(TopLevelContainerLayoutController.java:88) - Resources  null
+[INFO ] 2016-11-05 21:59:16.598 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLeft(RootClientLayoutController.java:102) - Resources  null
+[INFO ] 2016-11-05 21:59:16.610 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:123) - Resources  null
+[ERROR] 2016-11-05 21:59:16.632 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:139) - No resources specified.
+file:/F:/javamailproject/mailapplicationproject/target/mailapplicationproject-1.0-SNAPSHOT.jar!/fxml/EmailTableLayout.fxml:15
+
+[INFO ] 2016-11-05 22:02:56.079 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createConfigForm(MainApp.java:73) - Resource java.util.PropertyResourceBundle@283e6424
+[INFO ] 2016-11-05 22:02:56.135 [JavaFX Application Thread] com.thaivun01.controllers.ConfigFormController.initialize(ConfigFormController.java:75) - Resources java.util.PropertyResourceBundle@283e6424
+[INFO ] 2016-11-05 22:02:56.196 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createMainLayout(MainApp.java:88) - Resource java.util.PropertyResourceBundle@283e6424
+[INFO ] 2016-11-05 22:02:56.223 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.loadRootLayout(TopLevelContainerLayoutController.java:90) - Resources  null
+[INFO ] 2016-11-05 22:02:56.235 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLeft(RootClientLayoutController.java:102) - Resources  null
+[INFO ] 2016-11-05 22:02:56.247 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:123) - Resources  null
+[ERROR] 2016-11-05 22:02:56.268 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:139) - No resources specified.
+file:/F:/javamailproject/mailapplicationproject/target/mailapplicationproject-1.0-SNAPSHOT.jar!/fxml/EmailTableLayout.fxml:15
+
+[INFO ] 2016-11-05 22:04:41.668 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createConfigForm(MainApp.java:73) - Resource java.util.PropertyResourceBundle@23aaeded
+[INFO ] 2016-11-05 22:04:41.731 [JavaFX Application Thread] com.thaivun01.controllers.ConfigFormController.initialize(ConfigFormController.java:75) - Resources java.util.PropertyResourceBundle@23aaeded
+[INFO ] 2016-11-05 22:04:41.786 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createMainLayout(MainApp.java:88) - Resource java.util.PropertyResourceBundle@23aaeded
+[INFO ] 2016-11-05 22:04:41.808 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.loadRootLayout(TopLevelContainerLayoutController.java:90) - Resources  null
+[INFO ] 2016-11-05 22:04:41.820 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLeft(RootClientLayoutController.java:102) - Resources  null
+[INFO ] 2016-11-05 22:04:41.830 [JavaFX Application Thread] com.thaivun01.controllers.EmailFolderTreeLayoutController.initialize(EmailFolderTreeLayoutController.java:55) - Resources null
+[INFO ] 2016-11-05 22:04:41.832 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:123) - Resources  null
+[ERROR] 2016-11-05 22:04:41.854 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:139) - No resources specified.
+file:/F:/javamailproject/mailapplicationproject/target/mailapplicationproject-1.0-SNAPSHOT.jar!/fxml/EmailTableLayout.fxml:15
+
+[INFO ] 2016-11-05 22:05:19.990 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createConfigForm(MainApp.java:73) - Resource java.util.PropertyResourceBundle@1e154c02
+[INFO ] 2016-11-05 22:05:20.042 [JavaFX Application Thread] com.thaivun01.controllers.ConfigFormController.initialize(ConfigFormController.java:75) - Resources java.util.PropertyResourceBundle@1e154c02
+[INFO ] 2016-11-05 22:05:20.101 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createMainLayout(MainApp.java:88) - Resource java.util.PropertyResourceBundle@1e154c02
+[INFO ] 2016-11-05 22:05:20.124 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.loadRootLayout(TopLevelContainerLayoutController.java:90) - Resources  null
+[INFO ] 2016-11-05 22:05:20.130 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.initialize(RootClientLayoutController.java:64) - Resources null
+[INFO ] 2016-11-05 22:05:20.133 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLeft(RootClientLayoutController.java:103) - Resources  null
+[INFO ] 2016-11-05 22:05:20.143 [JavaFX Application Thread] com.thaivun01.controllers.EmailFolderTreeLayoutController.initialize(EmailFolderTreeLayoutController.java:55) - Resources null
+[INFO ] 2016-11-05 22:05:20.146 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:124) - Resources  null
+[ERROR] 2016-11-05 22:05:20.166 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:140) - No resources specified.
+file:/F:/javamailproject/mailapplicationproject/target/mailapplicationproject-1.0-SNAPSHOT.jar!/fxml/EmailTableLayout.fxml:15
+
+[INFO ] 2016-11-05 22:05:58.197 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createConfigForm(MainApp.java:73) - Resource java.util.PropertyResourceBundle@1e154c02
+[INFO ] 2016-11-05 22:05:58.247 [JavaFX Application Thread] com.thaivun01.controllers.ConfigFormController.initialize(ConfigFormController.java:75) - Resources java.util.PropertyResourceBundle@1e154c02
+[INFO ] 2016-11-05 22:05:58.309 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createMainLayout(MainApp.java:88) - Resource java.util.PropertyResourceBundle@1e154c02
+[INFO ] 2016-11-05 22:05:58.320 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.initialize(TopLevelContainerLayoutController.java:55) - Resources java.util.PropertyResourceBundle@1e154c02
+[INFO ] 2016-11-05 22:05:58.330 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.loadRootLayout(TopLevelContainerLayoutController.java:90) - Resources  null
+[INFO ] 2016-11-05 22:05:58.337 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.initialize(RootClientLayoutController.java:64) - Resources null
+[INFO ] 2016-11-05 22:05:58.340 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLeft(RootClientLayoutController.java:103) - Resources  null
+[INFO ] 2016-11-05 22:05:58.349 [JavaFX Application Thread] com.thaivun01.controllers.EmailFolderTreeLayoutController.initialize(EmailFolderTreeLayoutController.java:55) - Resources null
+[INFO ] 2016-11-05 22:05:58.351 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:124) - Resources  null
+[ERROR] 2016-11-05 22:05:58.372 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:140) - No resources specified.
+file:/F:/javamailproject/mailapplicationproject/target/mailapplicationproject-1.0-SNAPSHOT.jar!/fxml/EmailTableLayout.fxml:15
+
+[INFO ] 2016-11-05 22:07:16.797 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createConfigForm(MainApp.java:73) - Resource java.util.PropertyResourceBundle@11183723
+[INFO ] 2016-11-05 22:07:16.845 [JavaFX Application Thread] com.thaivun01.controllers.ConfigFormController.initialize(ConfigFormController.java:75) - Resources java.util.PropertyResourceBundle@11183723
+[INFO ] 2016-11-05 22:07:16.905 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createMainLayout(MainApp.java:88) - Resource java.util.PropertyResourceBundle@11183723
+[INFO ] 2016-11-05 22:07:16.918 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.initialize(TopLevelContainerLayoutController.java:55) - Resources java.util.PropertyResourceBundle@11183723
+[INFO ] 2016-11-05 22:07:16.926 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.loadRootLayout(TopLevelContainerLayoutController.java:90) - Resources  null
+[INFO ] 2016-11-05 22:07:16.934 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.initialize(RootClientLayoutController.java:64) - Resources null
+[INFO ] 2016-11-05 22:07:16.937 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLeft(RootClientLayoutController.java:103) - Resources  null
+[INFO ] 2016-11-05 22:07:16.948 [JavaFX Application Thread] com.thaivun01.controllers.EmailFolderTreeLayoutController.initialize(EmailFolderTreeLayoutController.java:55) - Resources null
+[INFO ] 2016-11-05 22:07:16.952 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:124) - Resources  null
+[ERROR] 2016-11-05 22:07:16.972 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:140) - No resources specified.
+file:/F:/javamailproject/mailapplicationproject/target/mailapplicationproject-1.0-SNAPSHOT.jar!/fxml/EmailTableLayout.fxml:15
+
+[INFO ] 2016-11-05 22:07:47.065 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createConfigForm(MainApp.java:73) - Resource java.util.PropertyResourceBundle@6877c52a
+[INFO ] 2016-11-05 22:07:47.120 [JavaFX Application Thread] com.thaivun01.controllers.ConfigFormController.initialize(ConfigFormController.java:75) - Resources java.util.PropertyResourceBundle@6877c52a
+[INFO ] 2016-11-05 22:07:47.178 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createMainLayout(MainApp.java:88) - Resource java.util.PropertyResourceBundle@6877c52a
+[INFO ] 2016-11-05 22:07:47.193 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.initialize(TopLevelContainerLayoutController.java:55) - Resources java.util.PropertyResourceBundle@6877c52a
+[INFO ] 2016-11-05 22:07:47.201 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.loadRootLayout(TopLevelContainerLayoutController.java:91) - Resources  java.util.PropertyResourceBundle@6877c52a
+[INFO ] 2016-11-05 22:07:47.207 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.initialize(RootClientLayoutController.java:64) - Resources java.util.PropertyResourceBundle@6877c52a
+[INFO ] 2016-11-05 22:07:47.210 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLeft(RootClientLayoutController.java:103) - Resources  null
+[INFO ] 2016-11-05 22:07:47.220 [JavaFX Application Thread] com.thaivun01.controllers.EmailFolderTreeLayoutController.initialize(EmailFolderTreeLayoutController.java:55) - Resources null
+[INFO ] 2016-11-05 22:07:47.223 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:124) - Resources  null
+[ERROR] 2016-11-05 22:07:47.243 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:140) - No resources specified.
+file:/F:/javamailproject/mailapplicationproject/target/mailapplicationproject-1.0-SNAPSHOT.jar!/fxml/EmailTableLayout.fxml:15
+
+[INFO ] 2016-11-05 22:09:29.576 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createConfigForm(MainApp.java:73) - Resource java.util.PropertyResourceBundle@78207e0b
+[INFO ] 2016-11-05 22:09:29.626 [JavaFX Application Thread] com.thaivun01.controllers.ConfigFormController.initialize(ConfigFormController.java:75) - Resources java.util.PropertyResourceBundle@78207e0b
+[INFO ] 2016-11-05 22:09:29.688 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createMainLayout(MainApp.java:88) - Resource java.util.PropertyResourceBundle@78207e0b
+[INFO ] 2016-11-05 22:09:29.700 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.initialize(TopLevelContainerLayoutController.java:55) - Resources java.util.PropertyResourceBundle@78207e0b
+[INFO ] 2016-11-05 22:09:29.708 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.loadRootLayout(TopLevelContainerLayoutController.java:91) - Resources  null
+[INFO ] 2016-11-05 22:09:29.717 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.initialize(RootClientLayoutController.java:64) - Resources null
+[INFO ] 2016-11-05 22:09:29.720 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLeft(RootClientLayoutController.java:103) - Resources  null
+[INFO ] 2016-11-05 22:09:29.730 [JavaFX Application Thread] com.thaivun01.controllers.EmailFolderTreeLayoutController.initialize(EmailFolderTreeLayoutController.java:55) - Resources null
+[INFO ] 2016-11-05 22:09:29.732 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:124) - Resources  null
+[ERROR] 2016-11-05 22:09:29.753 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:140) - No resources specified.
+file:/F:/javamailproject/mailapplicationproject/target/mailapplicationproject-1.0-SNAPSHOT.jar!/fxml/EmailTableLayout.fxml:15
+
+[INFO ] 2016-11-05 22:13:04.266 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createConfigForm(MainApp.java:73) - Resource java.util.PropertyResourceBundle@78207e0b
+[INFO ] 2016-11-05 22:13:04.321 [JavaFX Application Thread] com.thaivun01.controllers.ConfigFormController.initialize(ConfigFormController.java:75) - Resources java.util.PropertyResourceBundle@78207e0b
+[INFO ] 2016-11-05 22:13:04.375 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createMainLayout(MainApp.java:88) - Resource java.util.PropertyResourceBundle@78207e0b
+[INFO ] 2016-11-05 22:13:04.389 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.initialize(TopLevelContainerLayoutController.java:55) - Resources java.util.PropertyResourceBundle@78207e0b
+[INFO ] 2016-11-05 22:13:04.397 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.loadRootLayout(TopLevelContainerLayoutController.java:91) - Resources  java.util.PropertyResourceBundle@78207e0b
+[INFO ] 2016-11-05 22:13:04.405 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.initialize(RootClientLayoutController.java:64) - Resources java.util.PropertyResourceBundle@78207e0b
+[INFO ] 2016-11-05 22:13:04.409 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLeft(RootClientLayoutController.java:104) - Resources  java.util.PropertyResourceBundle@78207e0b
+[INFO ] 2016-11-05 22:13:04.421 [JavaFX Application Thread] com.thaivun01.controllers.EmailFolderTreeLayoutController.initialize(EmailFolderTreeLayoutController.java:55) - Resources java.util.PropertyResourceBundle@78207e0b
+[INFO ] 2016-11-05 22:13:04.424 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:125) - Resources  java.util.PropertyResourceBundle@78207e0b
+[INFO ] 2016-11-05 22:13:04.448 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:129) - Table AnchorPane - AnchorPane[id=AnchorPane, styleClass=mainFxmlClass]
+[INFO ] 2016-11-05 22:13:04.448 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:133) - Table Controller  - AnchorPane[id=AnchorPane, styleClass=mainFxmlClass]
+[INFO ] 2016-11-05 22:14:03.345 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createConfigForm(MainApp.java:73) - Resource java.util.PropertyResourceBundle@11183723
+[INFO ] 2016-11-05 22:14:03.394 [JavaFX Application Thread] com.thaivun01.controllers.ConfigFormController.initialize(ConfigFormController.java:75) - Resources java.util.PropertyResourceBundle@11183723
+[INFO ] 2016-11-05 22:14:03.452 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createMainLayout(MainApp.java:88) - Resource java.util.PropertyResourceBundle@11183723
+[INFO ] 2016-11-05 22:14:03.464 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.initialize(TopLevelContainerLayoutController.java:55) - Resources java.util.PropertyResourceBundle@11183723
+[INFO ] 2016-11-05 22:14:03.475 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.loadRootLayout(TopLevelContainerLayoutController.java:91) - Resources  java.util.PropertyResourceBundle@11183723
+[INFO ] 2016-11-05 22:14:03.482 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.initialize(RootClientLayoutController.java:64) - Resources java.util.PropertyResourceBundle@11183723
+[INFO ] 2016-11-05 22:14:03.485 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLeft(RootClientLayoutController.java:104) - Resources  java.util.PropertyResourceBundle@11183723
+[INFO ] 2016-11-05 22:14:03.494 [JavaFX Application Thread] com.thaivun01.controllers.EmailFolderTreeLayoutController.initialize(EmailFolderTreeLayoutController.java:55) - Resources java.util.PropertyResourceBundle@11183723
+[INFO ] 2016-11-05 22:14:03.496 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:125) - Resources  java.util.PropertyResourceBundle@11183723
+[INFO ] 2016-11-05 22:14:03.518 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:129) - Table AnchorPane - AnchorPane[id=AnchorPane, styleClass=mainFxmlClass]
+[INFO ] 2016-11-05 22:14:03.519 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:133) - Table Controller  - AnchorPane[id=AnchorPane, styleClass=mainFxmlClass]
+[INFO ] 2016-11-06 03:35:31.216 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createConfigForm(MainApp.java:73) - Resource java.util.PropertyResourceBundle@23aaeded
+[INFO ] 2016-11-06 03:35:31.266 [JavaFX Application Thread] com.thaivun01.controllers.ConfigFormController.initialize(ConfigFormController.java:75) - Resources java.util.PropertyResourceBundle@23aaeded
+[INFO ] 2016-11-06 03:35:31.320 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createMainLayout(MainApp.java:88) - Resource java.util.PropertyResourceBundle@23aaeded
+[INFO ] 2016-11-06 03:35:31.332 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.initialize(TopLevelContainerLayoutController.java:55) - Resources java.util.PropertyResourceBundle@23aaeded
+[INFO ] 2016-11-06 03:35:31.341 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.loadRootLayout(TopLevelContainerLayoutController.java:91) - Resources  java.util.PropertyResourceBundle@23aaeded
+[INFO ] 2016-11-06 03:35:31.347 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.initialize(RootClientLayoutController.java:64) - Resources java.util.PropertyResourceBundle@23aaeded
+[INFO ] 2016-11-06 03:35:31.349 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLeft(RootClientLayoutController.java:104) - Resources  java.util.PropertyResourceBundle@23aaeded
+[INFO ] 2016-11-06 03:35:31.359 [JavaFX Application Thread] com.thaivun01.controllers.EmailFolderTreeLayoutController.initialize(EmailFolderTreeLayoutController.java:55) - Resources java.util.PropertyResourceBundle@23aaeded
+[INFO ] 2016-11-06 03:35:31.361 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:125) - Resources  java.util.PropertyResourceBundle@23aaeded
+[INFO ] 2016-11-06 03:35:31.385 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:129) - Table AnchorPane - AnchorPane[id=AnchorPane, styleClass=mainFxmlClass]
+[INFO ] 2016-11-06 03:35:31.385 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:133) - Table Controller  - AnchorPane[id=AnchorPane, styleClass=mainFxmlClass]
+[INFO ] 2016-11-06 03:37:04.349 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createConfigForm(MainApp.java:73) - Resource java.util.PropertyResourceBundle@1e154c02
+[INFO ] 2016-11-06 03:37:04.400 [JavaFX Application Thread] com.thaivun01.controllers.ConfigFormController.initialize(ConfigFormController.java:75) - Resources java.util.PropertyResourceBundle@1e154c02
+[INFO ] 2016-11-06 03:37:04.456 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createMainLayout(MainApp.java:88) - Resource java.util.PropertyResourceBundle@1e154c02
+[INFO ] 2016-11-06 03:37:04.467 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.initialize(TopLevelContainerLayoutController.java:55) - Resources java.util.PropertyResourceBundle@1e154c02
+[INFO ] 2016-11-06 03:37:04.477 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.loadRootLayout(TopLevelContainerLayoutController.java:91) - Resources  java.util.PropertyResourceBundle@1e154c02
+[INFO ] 2016-11-06 03:37:04.484 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.initialize(RootClientLayoutController.java:64) - Resources java.util.PropertyResourceBundle@1e154c02
+[INFO ] 2016-11-06 03:37:04.487 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLeft(RootClientLayoutController.java:104) - Resources  java.util.PropertyResourceBundle@1e154c02
+[INFO ] 2016-11-06 03:37:04.497 [JavaFX Application Thread] com.thaivun01.controllers.EmailFolderTreeLayoutController.initialize(EmailFolderTreeLayoutController.java:55) - Resources java.util.PropertyResourceBundle@1e154c02
+[INFO ] 2016-11-06 03:37:04.500 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:125) - Resources  java.util.PropertyResourceBundle@1e154c02
+[INFO ] 2016-11-06 03:37:04.522 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:129) - Table AnchorPane - AnchorPane[id=AnchorPane, styleClass=mainFxmlClass]
+[INFO ] 2016-11-06 03:37:04.522 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:133) - Table Controller  - AnchorPane[id=AnchorPane, styleClass=mainFxmlClass]
+[INFO ] 2016-11-06 03:39:02.272 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createConfigForm(MainApp.java:73) - Resource java.util.PropertyResourceBundle@1e154c02
+[INFO ] 2016-11-06 03:39:02.324 [JavaFX Application Thread] com.thaivun01.controllers.ConfigFormController.initialize(ConfigFormController.java:75) - Resources java.util.PropertyResourceBundle@1e154c02
+[INFO ] 2016-11-06 03:39:02.379 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createMainLayout(MainApp.java:88) - Resource java.util.PropertyResourceBundle@1e154c02
+[INFO ] 2016-11-06 03:39:02.390 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.initialize(TopLevelContainerLayoutController.java:55) - Resources java.util.PropertyResourceBundle@1e154c02
+[INFO ] 2016-11-06 03:39:02.399 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.loadRootLayout(TopLevelContainerLayoutController.java:91) - Resources  java.util.PropertyResourceBundle@1e154c02
+[INFO ] 2016-11-06 03:39:02.405 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.initialize(RootClientLayoutController.java:64) - Resources java.util.PropertyResourceBundle@1e154c02
+[INFO ] 2016-11-06 03:39:02.408 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLeft(RootClientLayoutController.java:104) - Resources  java.util.PropertyResourceBundle@1e154c02
+[INFO ] 2016-11-06 03:39:02.419 [JavaFX Application Thread] com.thaivun01.controllers.EmailFolderTreeLayoutController.initialize(EmailFolderTreeLayoutController.java:55) - Resources java.util.PropertyResourceBundle@1e154c02
+[INFO ] 2016-11-06 03:39:02.422 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:125) - Resources  java.util.PropertyResourceBundle@1e154c02
+[INFO ] 2016-11-06 03:39:02.447 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:129) - Table AnchorPane - AnchorPane[id=AnchorPane, styleClass=mainFxmlClass]
+[INFO ] 2016-11-06 03:39:02.447 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:133) - Table Controller  - AnchorPane[id=AnchorPane, styleClass=mainFxmlClass]
+[INFO ] 2016-11-06 03:45:10.668 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createConfigForm(MainApp.java:73) - Resource java.util.PropertyResourceBundle@11183723
+[INFO ] 2016-11-06 03:45:10.718 [JavaFX Application Thread] com.thaivun01.controllers.ConfigFormController.initialize(ConfigFormController.java:75) - Resources java.util.PropertyResourceBundle@11183723
+[INFO ] 2016-11-06 03:45:10.778 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createMainLayout(MainApp.java:88) - Resource java.util.PropertyResourceBundle@11183723
+[INFO ] 2016-11-06 03:45:10.789 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.initialize(TopLevelContainerLayoutController.java:55) - Resources java.util.PropertyResourceBundle@11183723
+[INFO ] 2016-11-06 03:45:10.801 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.loadRootLayout(TopLevelContainerLayoutController.java:91) - Resources  java.util.PropertyResourceBundle@11183723
+[INFO ] 2016-11-06 03:45:10.808 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.initialize(RootClientLayoutController.java:64) - Resources java.util.PropertyResourceBundle@11183723
+[INFO ] 2016-11-06 03:45:10.811 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLeft(RootClientLayoutController.java:104) - Resources  java.util.PropertyResourceBundle@11183723
+[INFO ] 2016-11-06 03:45:10.821 [JavaFX Application Thread] com.thaivun01.controllers.EmailFolderTreeLayoutController.initialize(EmailFolderTreeLayoutController.java:55) - Resources java.util.PropertyResourceBundle@11183723
+[INFO ] 2016-11-06 03:45:10.824 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:128) - Resources  java.util.PropertyResourceBundle@11183723
+[INFO ] 2016-11-06 03:46:04.469 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createConfigForm(MainApp.java:73) - Resource java.util.PropertyResourceBundle@283e6424
+[INFO ] 2016-11-06 03:46:04.519 [JavaFX Application Thread] com.thaivun01.controllers.ConfigFormController.initialize(ConfigFormController.java:75) - Resources java.util.PropertyResourceBundle@283e6424
+[INFO ] 2016-11-06 03:46:04.582 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createMainLayout(MainApp.java:88) - Resource java.util.PropertyResourceBundle@283e6424
+[INFO ] 2016-11-06 03:46:04.596 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.initialize(TopLevelContainerLayoutController.java:55) - Resources java.util.PropertyResourceBundle@283e6424
+[INFO ] 2016-11-06 03:46:04.605 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.loadRootLayout(TopLevelContainerLayoutController.java:91) - Resources  java.util.PropertyResourceBundle@283e6424
+[INFO ] 2016-11-06 03:46:04.613 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.initialize(RootClientLayoutController.java:64) - Resources java.util.PropertyResourceBundle@283e6424
+[INFO ] 2016-11-06 03:46:04.617 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLeft(RootClientLayoutController.java:104) - Resources  java.util.PropertyResourceBundle@283e6424
+[INFO ] 2016-11-06 03:46:04.626 [JavaFX Application Thread] com.thaivun01.controllers.EmailFolderTreeLayoutController.initialize(EmailFolderTreeLayoutController.java:55) - Resources java.util.PropertyResourceBundle@283e6424
+[INFO ] 2016-11-06 03:46:04.628 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:128) - Resources  java.util.PropertyResourceBundle@283e6424
+[INFO ] 2016-11-06 03:47:11.875 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createConfigForm(MainApp.java:73) - Resource java.util.PropertyResourceBundle@35f0a9f8
+[INFO ] 2016-11-06 03:47:11.923 [JavaFX Application Thread] com.thaivun01.controllers.ConfigFormController.initialize(ConfigFormController.java:75) - Resources java.util.PropertyResourceBundle@35f0a9f8
+[INFO ] 2016-11-06 03:47:11.978 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createMainLayout(MainApp.java:88) - Resource java.util.PropertyResourceBundle@35f0a9f8
+[INFO ] 2016-11-06 03:47:11.989 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.initialize(TopLevelContainerLayoutController.java:55) - Resources java.util.PropertyResourceBundle@35f0a9f8
+[INFO ] 2016-11-06 03:47:11.997 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.loadRootLayout(TopLevelContainerLayoutController.java:91) - Resources  java.util.PropertyResourceBundle@35f0a9f8
+[INFO ] 2016-11-06 03:47:12.004 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.initialize(RootClientLayoutController.java:64) - Resources java.util.PropertyResourceBundle@35f0a9f8
+[INFO ] 2016-11-06 03:47:12.007 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLeft(RootClientLayoutController.java:104) - Resources  java.util.PropertyResourceBundle@35f0a9f8
+[INFO ] 2016-11-06 03:47:12.017 [JavaFX Application Thread] com.thaivun01.controllers.EmailFolderTreeLayoutController.initialize(EmailFolderTreeLayoutController.java:55) - Resources java.util.PropertyResourceBundle@35f0a9f8
+[INFO ] 2016-11-06 03:47:12.019 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:128) - Resources  java.util.PropertyResourceBundle@35f0a9f8
+[INFO ] 2016-11-06 03:49:11.567 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createConfigForm(MainApp.java:73) - Resource java.util.PropertyResourceBundle@5abab9f1
+[INFO ] 2016-11-06 03:49:11.616 [JavaFX Application Thread] com.thaivun01.controllers.ConfigFormController.initialize(ConfigFormController.java:75) - Resources java.util.PropertyResourceBundle@5abab9f1
+[INFO ] 2016-11-06 03:49:11.670 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createMainLayout(MainApp.java:88) - Resource java.util.PropertyResourceBundle@5abab9f1
+[INFO ] 2016-11-06 03:49:11.681 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.initialize(TopLevelContainerLayoutController.java:55) - Resources java.util.PropertyResourceBundle@5abab9f1
+[INFO ] 2016-11-06 03:49:11.689 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.loadRootLayout(TopLevelContainerLayoutController.java:91) - Resources  java.util.PropertyResourceBundle@5abab9f1
+[INFO ] 2016-11-06 03:49:11.695 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.initialize(RootClientLayoutController.java:64) - Resources java.util.PropertyResourceBundle@5abab9f1
+[INFO ] 2016-11-06 03:49:11.698 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLeft(RootClientLayoutController.java:104) - Resources  java.util.PropertyResourceBundle@5abab9f1
+[INFO ] 2016-11-06 03:49:11.707 [JavaFX Application Thread] com.thaivun01.controllers.EmailFolderTreeLayoutController.initialize(EmailFolderTreeLayoutController.java:55) - Resources java.util.PropertyResourceBundle@5abab9f1
+[INFO ] 2016-11-06 03:49:11.710 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:128) - Resources  java.util.PropertyResourceBundle@5abab9f1
+[INFO ] 2016-11-06 03:49:54.879 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createConfigForm(MainApp.java:73) - Resource java.util.PropertyResourceBundle@23aaeded
+[INFO ] 2016-11-06 03:49:54.929 [JavaFX Application Thread] com.thaivun01.controllers.ConfigFormController.initialize(ConfigFormController.java:75) - Resources java.util.PropertyResourceBundle@23aaeded
+[INFO ] 2016-11-06 03:49:54.983 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createMainLayout(MainApp.java:88) - Resource java.util.PropertyResourceBundle@23aaeded
+[INFO ] 2016-11-06 03:49:54.996 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.initialize(TopLevelContainerLayoutController.java:55) - Resources java.util.PropertyResourceBundle@23aaeded
+[INFO ] 2016-11-06 03:49:55.005 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.loadRootLayout(TopLevelContainerLayoutController.java:91) - Resources  java.util.PropertyResourceBundle@23aaeded
+[INFO ] 2016-11-06 03:49:55.011 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.initialize(RootClientLayoutController.java:64) - Resources java.util.PropertyResourceBundle@23aaeded
+[INFO ] 2016-11-06 03:49:55.014 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLeft(RootClientLayoutController.java:104) - Resources  java.util.PropertyResourceBundle@23aaeded
+[INFO ] 2016-11-06 03:49:55.023 [JavaFX Application Thread] com.thaivun01.controllers.EmailFolderTreeLayoutController.initialize(EmailFolderTreeLayoutController.java:55) - Resources java.util.PropertyResourceBundle@23aaeded
+[INFO ] 2016-11-06 03:49:55.026 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:128) - Resources  java.util.PropertyResourceBundle@23aaeded
+[INFO ] 2016-11-06 03:56:48.228 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createConfigForm(MainApp.java:73) - Resource java.util.PropertyResourceBundle@11183723
+[INFO ] 2016-11-06 03:56:48.275 [JavaFX Application Thread] com.thaivun01.controllers.ConfigFormController.initialize(ConfigFormController.java:75) - Resources java.util.PropertyResourceBundle@11183723
+[INFO ] 2016-11-06 03:56:48.329 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createMainLayout(MainApp.java:88) - Resource java.util.PropertyResourceBundle@11183723
+[INFO ] 2016-11-06 03:56:48.342 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.initialize(TopLevelContainerLayoutController.java:55) - Resources java.util.PropertyResourceBundle@11183723
+[INFO ] 2016-11-06 03:56:48.349 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.loadRootLayout(TopLevelContainerLayoutController.java:91) - Resources  java.util.PropertyResourceBundle@11183723
+[INFO ] 2016-11-06 03:56:48.357 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.initialize(RootClientLayoutController.java:64) - Resources java.util.PropertyResourceBundle@11183723
+[INFO ] 2016-11-06 03:56:48.360 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLeft(RootClientLayoutController.java:104) - Resources  java.util.PropertyResourceBundle@11183723
+[INFO ] 2016-11-06 03:56:48.369 [JavaFX Application Thread] com.thaivun01.controllers.EmailFolderTreeLayoutController.initialize(EmailFolderTreeLayoutController.java:55) - Resources java.util.PropertyResourceBundle@11183723
+[INFO ] 2016-11-06 03:56:48.373 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:128) - Resources  java.util.PropertyResourceBundle@11183723
+[INFO ] 2016-11-06 15:32:27.725 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createConfigForm(MainApp.java:73) - Resource java.util.PropertyResourceBundle@1e154c02
+[INFO ] 2016-11-06 15:32:27.786 [JavaFX Application Thread] com.thaivun01.controllers.ConfigFormController.initialize(ConfigFormController.java:75) - Resources java.util.PropertyResourceBundle@1e154c02
+[INFO ] 2016-11-06 15:32:27.842 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createMainLayout(MainApp.java:88) - Resource java.util.PropertyResourceBundle@1e154c02
+[INFO ] 2016-11-06 15:32:27.853 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.initialize(TopLevelContainerLayoutController.java:55) - Resources java.util.PropertyResourceBundle@1e154c02
+[INFO ] 2016-11-06 15:32:27.863 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.loadRootLayout(TopLevelContainerLayoutController.java:91) - Resources  java.util.PropertyResourceBundle@1e154c02
+[INFO ] 2016-11-06 15:32:27.870 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.initialize(RootClientLayoutController.java:64) - Resources java.util.PropertyResourceBundle@1e154c02
+[INFO ] 2016-11-06 15:32:27.873 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLeft(RootClientLayoutController.java:104) - Resources  java.util.PropertyResourceBundle@1e154c02
+[INFO ] 2016-11-06 15:32:27.885 [JavaFX Application Thread] com.thaivun01.controllers.EmailFolderTreeLayoutController.initialize(EmailFolderTreeLayoutController.java:55) - Resources java.util.PropertyResourceBundle@1e154c02
+[INFO ] 2016-11-06 15:32:27.887 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:128) - Resources  java.util.PropertyResourceBundle@1e154c02
+[INFO ] 2016-11-06 15:39:33.668 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createConfigForm(MainApp.java:73) - Resource java.util.PropertyResourceBundle@11183723
+[INFO ] 2016-11-06 15:39:33.719 [JavaFX Application Thread] com.thaivun01.controllers.ConfigFormController.initialize(ConfigFormController.java:75) - Resources java.util.PropertyResourceBundle@11183723
+[INFO ] 2016-11-06 15:39:33.773 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createMainLayout(MainApp.java:88) - Resource java.util.PropertyResourceBundle@11183723
+[INFO ] 2016-11-06 15:39:33.788 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.initialize(TopLevelContainerLayoutController.java:55) - Resources java.util.PropertyResourceBundle@11183723
+[INFO ] 2016-11-06 15:39:33.798 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.loadRootLayout(TopLevelContainerLayoutController.java:91) - Resources  java.util.PropertyResourceBundle@11183723
+[INFO ] 2016-11-06 15:39:33.806 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.initialize(RootClientLayoutController.java:64) - Resources java.util.PropertyResourceBundle@11183723
+[INFO ] 2016-11-06 15:39:33.810 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLeft(RootClientLayoutController.java:104) - Resources  java.util.PropertyResourceBundle@11183723
+[INFO ] 2016-11-06 15:39:33.820 [JavaFX Application Thread] com.thaivun01.controllers.EmailFolderTreeLayoutController.initialize(EmailFolderTreeLayoutController.java:55) - Resources java.util.PropertyResourceBundle@11183723
+[INFO ] 2016-11-06 15:39:33.824 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:128) - Resources  java.util.PropertyResourceBundle@11183723
+[INFO ] 2016-11-06 21:11:04.172 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createConfigForm(MainApp.java:73) - Resource java.util.PropertyResourceBundle@6877c52a
+[INFO ] 2016-11-06 21:11:04.221 [JavaFX Application Thread] com.thaivun01.controllers.ConfigFormController.initialize(ConfigFormController.java:75) - Resources java.util.PropertyResourceBundle@6877c52a
+[INFO ] 2016-11-06 21:11:04.286 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createMainLayout(MainApp.java:88) - Resource java.util.PropertyResourceBundle@6877c52a
+[INFO ] 2016-11-06 21:11:04.300 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.initialize(TopLevelContainerLayoutController.java:55) - Resources java.util.PropertyResourceBundle@6877c52a
+[INFO ] 2016-11-06 21:11:04.308 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.loadRootLayout(TopLevelContainerLayoutController.java:91) - Resources  java.util.PropertyResourceBundle@6877c52a
+[INFO ] 2016-11-06 21:11:04.314 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.initialize(RootClientLayoutController.java:65) - Resources java.util.PropertyResourceBundle@6877c52a
+[INFO ] 2016-11-06 21:11:04.317 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLeft(RootClientLayoutController.java:106) - Resources  java.util.PropertyResourceBundle@6877c52a
+[INFO ] 2016-11-06 21:11:04.326 [JavaFX Application Thread] com.thaivun01.controllers.EmailFolderTreeLayoutController.initialize(EmailFolderTreeLayoutController.java:55) - Resources java.util.PropertyResourceBundle@6877c52a
+[INFO ] 2016-11-06 21:11:04.328 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:130) - Resources  java.util.PropertyResourceBundle@6877c52a
+[INFO ] 2016-11-06 21:11:04.352 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLowerRight(RootClientLayoutController.java:158) - Resources  java.util.PropertyResourceBundle@6877c52a
+[INFO ] 2016-11-06 21:13:08.517 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createConfigForm(MainApp.java:73) - Resource java.util.PropertyResourceBundle@283e6424
+[INFO ] 2016-11-06 21:13:08.568 [JavaFX Application Thread] com.thaivun01.controllers.ConfigFormController.initialize(ConfigFormController.java:75) - Resources java.util.PropertyResourceBundle@283e6424
+[INFO ] 2016-11-06 21:13:08.626 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createMainLayout(MainApp.java:88) - Resource java.util.PropertyResourceBundle@283e6424
+[INFO ] 2016-11-06 21:13:08.640 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.initialize(TopLevelContainerLayoutController.java:55) - Resources java.util.PropertyResourceBundle@283e6424
+[INFO ] 2016-11-06 21:13:08.650 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.loadRootLayout(TopLevelContainerLayoutController.java:91) - Resources  java.util.PropertyResourceBundle@283e6424
+[INFO ] 2016-11-06 21:13:08.656 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.initialize(RootClientLayoutController.java:65) - Resources java.util.PropertyResourceBundle@283e6424
+[INFO ] 2016-11-06 21:13:08.660 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLeft(RootClientLayoutController.java:106) - Resources  java.util.PropertyResourceBundle@283e6424
+[INFO ] 2016-11-06 21:13:08.672 [JavaFX Application Thread] com.thaivun01.controllers.EmailFolderTreeLayoutController.initialize(EmailFolderTreeLayoutController.java:55) - Resources java.util.PropertyResourceBundle@283e6424
+[INFO ] 2016-11-06 21:13:08.674 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:130) - Resources  java.util.PropertyResourceBundle@283e6424
+[INFO ] 2016-11-06 21:13:08.703 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLowerRight(RootClientLayoutController.java:158) - Resources  java.util.PropertyResourceBundle@283e6424
+[INFO ] 2016-11-07 09:49:01.383 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createConfigForm(MainApp.java:73) - Resource java.util.PropertyResourceBundle@f9712a5
+[INFO ] 2016-11-07 09:49:01.467 [JavaFX Application Thread] com.thaivun01.controllers.ConfigFormController.initialize(ConfigFormController.java:75) - Resources java.util.PropertyResourceBundle@f9712a5
+[INFO ] 2016-11-07 09:49:01.547 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createMainLayout(MainApp.java:88) - Resource java.util.PropertyResourceBundle@f9712a5
+[INFO ] 2016-11-07 09:49:01.563 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.initialize(TopLevelContainerLayoutController.java:55) - Resources java.util.PropertyResourceBundle@f9712a5
+[INFO ] 2016-11-07 09:49:01.573 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.loadRootLayout(TopLevelContainerLayoutController.java:91) - Resources  java.util.PropertyResourceBundle@f9712a5
+[INFO ] 2016-11-07 09:49:01.582 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.initialize(RootClientLayoutController.java:65) - Resources java.util.PropertyResourceBundle@f9712a5
+[INFO ] 2016-11-07 09:49:01.587 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLeft(RootClientLayoutController.java:106) - Resources  java.util.PropertyResourceBundle@f9712a5
+[INFO ] 2016-11-07 09:49:01.601 [JavaFX Application Thread] com.thaivun01.controllers.EmailFolderTreeLayoutController.initialize(EmailFolderTreeLayoutController.java:55) - Resources java.util.PropertyResourceBundle@f9712a5
+[INFO ] 2016-11-07 09:49:01.604 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:130) - Resources  java.util.PropertyResourceBundle@f9712a5
+[INFO ] 2016-11-07 09:49:01.638 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLowerRight(RootClientLayoutController.java:158) - Resources  java.util.PropertyResourceBundle@f9712a5
+[INFO ] 2016-11-07 10:21:55.947 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createConfigForm(MainApp.java:73) - Resource java.util.PropertyResourceBundle@42b39e22
+[INFO ] 2016-11-07 10:21:56.015 [JavaFX Application Thread] com.thaivun01.controllers.ConfigFormController.initialize(ConfigFormController.java:75) - Resources java.util.PropertyResourceBundle@42b39e22
+[INFO ] 2016-11-07 10:21:56.093 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createMainLayout(MainApp.java:88) - Resource java.util.PropertyResourceBundle@42b39e22
+[INFO ] 2016-11-07 10:21:56.109 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.initialize(TopLevelContainerLayoutController.java:55) - Resources java.util.PropertyResourceBundle@42b39e22
+[INFO ] 2016-11-07 10:21:56.119 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.loadRootLayout(TopLevelContainerLayoutController.java:91) - Resources  java.util.PropertyResourceBundle@42b39e22
+[INFO ] 2016-11-07 10:21:56.128 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.initialize(RootClientLayoutController.java:65) - Resources java.util.PropertyResourceBundle@42b39e22
+[INFO ] 2016-11-07 10:21:56.132 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLeft(RootClientLayoutController.java:106) - Resources  java.util.PropertyResourceBundle@42b39e22
+[INFO ] 2016-11-07 10:21:56.146 [JavaFX Application Thread] com.thaivun01.controllers.EmailFolderTreeLayoutController.initialize(EmailFolderTreeLayoutController.java:55) - Resources java.util.PropertyResourceBundle@42b39e22
+[INFO ] 2016-11-07 10:21:56.149 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:129) - Resources  java.util.PropertyResourceBundle@42b39e22
+[INFO ] 2016-11-07 10:21:56.183 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLowerRight(RootClientLayoutController.java:157) - Resources  java.util.PropertyResourceBundle@42b39e22
+[INFO ] 2016-11-07 10:23:22.106 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createConfigForm(MainApp.java:73) - Resource java.util.PropertyResourceBundle@f9712a5
+[INFO ] 2016-11-07 10:23:22.174 [JavaFX Application Thread] com.thaivun01.controllers.ConfigFormController.initialize(ConfigFormController.java:75) - Resources java.util.PropertyResourceBundle@f9712a5
+[INFO ] 2016-11-07 10:23:22.251 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createMainLayout(MainApp.java:88) - Resource java.util.PropertyResourceBundle@f9712a5
+[INFO ] 2016-11-07 10:23:22.266 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.initialize(TopLevelContainerLayoutController.java:55) - Resources java.util.PropertyResourceBundle@f9712a5
+[INFO ] 2016-11-07 10:23:22.276 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.loadRootLayout(TopLevelContainerLayoutController.java:91) - Resources  java.util.PropertyResourceBundle@f9712a5
+[INFO ] 2016-11-07 10:23:22.285 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.initialize(RootClientLayoutController.java:65) - Resources java.util.PropertyResourceBundle@f9712a5
+[INFO ] 2016-11-07 10:23:22.289 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLeft(RootClientLayoutController.java:106) - Resources  java.util.PropertyResourceBundle@f9712a5
+[INFO ] 2016-11-07 10:23:22.303 [JavaFX Application Thread] com.thaivun01.controllers.EmailFolderTreeLayoutController.initialize(EmailFolderTreeLayoutController.java:55) - Resources java.util.PropertyResourceBundle@f9712a5
+[INFO ] 2016-11-07 10:23:22.306 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:129) - Resources  java.util.PropertyResourceBundle@f9712a5
+[INFO ] 2016-11-07 10:23:22.340 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLowerRight(RootClientLayoutController.java:157) - Resources  java.util.PropertyResourceBundle@f9712a5
+[INFO ] 2016-11-08 09:38:10.593 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createConfigForm(MainApp.java:73) - Resource java.util.PropertyResourceBundle@3e984765
+[INFO ] 2016-11-08 09:38:10.995 [JavaFX Application Thread] com.thaivun01.controllers.ConfigFormController.initialize(ConfigFormController.java:75) - Resources java.util.PropertyResourceBundle@3e984765
+[INFO ] 2016-11-08 09:38:11.227 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createMainLayout(MainApp.java:88) - Resource java.util.PropertyResourceBundle@3e984765
+[INFO ] 2016-11-08 09:38:11.282 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.initialize(TopLevelContainerLayoutController.java:55) - Resources java.util.PropertyResourceBundle@3e984765
+[INFO ] 2016-11-08 09:38:11.328 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.loadRootLayout(TopLevelContainerLayoutController.java:91) - Resources  java.util.PropertyResourceBundle@3e984765
+[INFO ] 2016-11-08 09:38:11.352 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.initialize(RootClientLayoutController.java:65) - Resources java.util.PropertyResourceBundle@3e984765
+[INFO ] 2016-11-08 09:38:11.377 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLeft(RootClientLayoutController.java:108) - Resources  java.util.PropertyResourceBundle@3e984765
+[INFO ] 2016-11-08 09:38:11.433 [JavaFX Application Thread] com.thaivun01.controllers.EmailFolderTreeLayoutController.initialize(EmailFolderTreeLayoutController.java:55) - Resources java.util.PropertyResourceBundle@3e984765
+[INFO ] 2016-11-08 09:38:11.436 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:131) - Resources  java.util.PropertyResourceBundle@3e984765
+[INFO ] 2016-11-08 09:38:11.582 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLowerRight(RootClientLayoutController.java:159) - Resources  java.util.PropertyResourceBundle@3e984765
+[INFO ] 2016-11-08 09:38:27.004 [JavaFX Application Thread] com.thaivun01.controllers.EmailTableLayoutController.updateEmailLayout(EmailTableLayoutController.java:91) - Email id 1
+[INFO ] 2016-11-08 09:38:27.005 [JavaFX Application Thread] com.thaivun01.controllers.EmailTableLayoutController.updateEmailLayout(EmailTableLayoutController.java:92) - Email Subject Test Messages
+[INFO ] 2016-11-08 09:39:02.377 [JavaFX Application Thread] com.thaivun01.controllers.EmailTableLayoutController.updateEmailLayout(EmailTableLayoutController.java:91) - Email id 1
+[INFO ] 2016-11-08 09:39:02.378 [JavaFX Application Thread] com.thaivun01.controllers.EmailTableLayoutController.updateEmailLayout(EmailTableLayoutController.java:92) - Email Subject Test Messages
+[INFO ] 2016-11-08 09:40:11.516 [JavaFX Application Thread] com.thaivun01.controllers.EmailTableLayoutController.updateEmailLayout(EmailTableLayoutController.java:91) - Email id 1
+[INFO ] 2016-11-08 09:40:11.517 [JavaFX Application Thread] com.thaivun01.controllers.EmailTableLayoutController.updateEmailLayout(EmailTableLayoutController.java:92) - Email Subject Test Messages
+[INFO ] 2016-11-08 09:41:53.687 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createConfigForm(MainApp.java:73) - Resource java.util.PropertyResourceBundle@de13644
+[INFO ] 2016-11-08 09:41:53.864 [JavaFX Application Thread] com.thaivun01.controllers.ConfigFormController.initialize(ConfigFormController.java:75) - Resources java.util.PropertyResourceBundle@de13644
+[INFO ] 2016-11-08 09:41:53.999 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createMainLayout(MainApp.java:88) - Resource java.util.PropertyResourceBundle@de13644
+[INFO ] 2016-11-08 09:41:54.023 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.initialize(TopLevelContainerLayoutController.java:55) - Resources java.util.PropertyResourceBundle@de13644
+[INFO ] 2016-11-08 09:41:54.047 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.loadRootLayout(TopLevelContainerLayoutController.java:91) - Resources  java.util.PropertyResourceBundle@de13644
+[INFO ] 2016-11-08 09:41:54.059 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.initialize(RootClientLayoutController.java:65) - Resources java.util.PropertyResourceBundle@de13644
+[INFO ] 2016-11-08 09:41:54.066 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLeft(RootClientLayoutController.java:108) - Resources  java.util.PropertyResourceBundle@de13644
+[INFO ] 2016-11-08 09:41:54.087 [JavaFX Application Thread] com.thaivun01.controllers.EmailFolderTreeLayoutController.initialize(EmailFolderTreeLayoutController.java:55) - Resources java.util.PropertyResourceBundle@de13644
+[INFO ] 2016-11-08 09:41:54.090 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:131) - Resources  java.util.PropertyResourceBundle@de13644
+[INFO ] 2016-11-08 09:41:54.146 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLowerRight(RootClientLayoutController.java:159) - Resources  java.util.PropertyResourceBundle@de13644
+[INFO ] 2016-11-08 09:42:15.611 [JavaFX Application Thread] com.thaivun01.controllers.EmailTableLayoutController.updateEmailLayout(EmailTableLayoutController.java:91) - Email id 1
+[INFO ] 2016-11-08 09:42:15.690 [JavaFX Application Thread] com.thaivun01.controllers.EmailTableLayoutController.updateEmailLayout(EmailTableLayoutController.java:92) - Email Subject Test Messages
+[INFO ] 2016-11-08 17:05:42.806 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createConfigForm(MainApp.java:73) - Resource java.util.PropertyResourceBundle@23aaeded
+[INFO ] 2016-11-08 17:05:42.861 [JavaFX Application Thread] com.thaivun01.controllers.ConfigFormController.initialize(ConfigFormController.java:75) - Resources java.util.PropertyResourceBundle@23aaeded
+[INFO ] 2016-11-08 17:05:42.921 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createMainLayout(MainApp.java:88) - Resource java.util.PropertyResourceBundle@23aaeded
+[INFO ] 2016-11-08 17:05:42.932 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.initialize(TopLevelContainerLayoutController.java:55) - Resources java.util.PropertyResourceBundle@23aaeded
+[INFO ] 2016-11-08 17:05:42.941 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.loadRootLayout(TopLevelContainerLayoutController.java:91) - Resources  java.util.PropertyResourceBundle@23aaeded
+[INFO ] 2016-11-08 17:05:42.948 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.initialize(RootClientLayoutController.java:65) - Resources java.util.PropertyResourceBundle@23aaeded
+[INFO ] 2016-11-08 17:05:42.951 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLeft(RootClientLayoutController.java:108) - Resources  java.util.PropertyResourceBundle@23aaeded
+[INFO ] 2016-11-08 17:05:42.960 [JavaFX Application Thread] com.thaivun01.controllers.EmailFolderTreeLayoutController.initialize(EmailFolderTreeLayoutController.java:55) - Resources java.util.PropertyResourceBundle@23aaeded
+[INFO ] 2016-11-08 17:05:42.963 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:131) - Resources  java.util.PropertyResourceBundle@23aaeded
+[INFO ] 2016-11-08 17:05:42.986 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLowerRight(RootClientLayoutController.java:159) - Resources  java.util.PropertyResourceBundle@23aaeded
+[INFO ] 2016-11-08 17:09:55.003 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createConfigForm(MainApp.java:73) - Resource java.util.PropertyResourceBundle@283e6424
+[INFO ] 2016-11-08 17:09:55.054 [JavaFX Application Thread] com.thaivun01.controllers.ConfigFormController.initialize(ConfigFormController.java:75) - Resources java.util.PropertyResourceBundle@283e6424
+[INFO ] 2016-11-08 17:09:55.114 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createMainLayout(MainApp.java:88) - Resource java.util.PropertyResourceBundle@283e6424
+[INFO ] 2016-11-08 17:09:55.128 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.initialize(TopLevelContainerLayoutController.java:55) - Resources java.util.PropertyResourceBundle@283e6424
+[INFO ] 2016-11-08 17:09:55.137 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.loadRootLayout(TopLevelContainerLayoutController.java:91) - Resources  java.util.PropertyResourceBundle@283e6424
+[INFO ] 2016-11-08 17:09:55.145 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.initialize(RootClientLayoutController.java:65) - Resources java.util.PropertyResourceBundle@283e6424
+[INFO ] 2016-11-08 17:09:55.148 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLeft(RootClientLayoutController.java:108) - Resources  java.util.PropertyResourceBundle@283e6424
+[INFO ] 2016-11-08 17:09:55.158 [JavaFX Application Thread] com.thaivun01.controllers.EmailFolderTreeLayoutController.initialize(EmailFolderTreeLayoutController.java:55) - Resources java.util.PropertyResourceBundle@283e6424
+[INFO ] 2016-11-08 17:09:55.160 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:131) - Resources  java.util.PropertyResourceBundle@283e6424
+[INFO ] 2016-11-08 17:09:55.183 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLowerRight(RootClientLayoutController.java:159) - Resources  java.util.PropertyResourceBundle@283e6424
+[INFO ] 2016-11-08 17:25:47.441 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createConfigForm(MainApp.java:73) - Resource java.util.PropertyResourceBundle@35f0a9f8
+[INFO ] 2016-11-08 17:25:47.492 [JavaFX Application Thread] com.thaivun01.controllers.ConfigFormController.initialize(ConfigFormController.java:75) - Resources java.util.PropertyResourceBundle@35f0a9f8
+[INFO ] 2016-11-08 17:25:47.550 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createMainLayout(MainApp.java:88) - Resource java.util.PropertyResourceBundle@35f0a9f8
+[INFO ] 2016-11-08 17:25:47.561 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.initialize(TopLevelContainerLayoutController.java:55) - Resources java.util.PropertyResourceBundle@35f0a9f8
+[INFO ] 2016-11-08 17:25:47.568 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.loadRootLayout(TopLevelContainerLayoutController.java:92) - Resources  java.util.PropertyResourceBundle@35f0a9f8
+[INFO ] 2016-11-08 17:25:47.576 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.initialize(RootClientLayoutController.java:65) - Resources java.util.PropertyResourceBundle@35f0a9f8
+[INFO ] 2016-11-08 17:25:47.581 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLeft(RootClientLayoutController.java:108) - Resources  java.util.PropertyResourceBundle@35f0a9f8
+[INFO ] 2016-11-08 17:25:47.594 [JavaFX Application Thread] com.thaivun01.controllers.EmailFolderTreeLayoutController.initialize(EmailFolderTreeLayoutController.java:55) - Resources java.util.PropertyResourceBundle@35f0a9f8
+[INFO ] 2016-11-08 17:25:47.596 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:132) - Resources  java.util.PropertyResourceBundle@35f0a9f8
+[INFO ] 2016-11-08 17:25:47.622 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLowerRight(RootClientLayoutController.java:160) - Resources  java.util.PropertyResourceBundle@35f0a9f8
+[INFO ] 2016-11-08 17:25:51.226 [JavaFX Application Thread] com.thaivun01.controllers.EmailTableLayoutController.updateEmailLayout(EmailTableLayoutController.java:92) - Email id 1
+[INFO ] 2016-11-08 17:25:51.226 [JavaFX Application Thread] com.thaivun01.controllers.EmailTableLayoutController.updateEmailLayout(EmailTableLayoutController.java:93) - Email Subject Test Messages
+[INFO ] 2016-11-08 17:26:02.259 [JavaFX Application Thread] com.thaivun01.controllers.EmailTableLayoutController.updateEmailLayout(EmailTableLayoutController.java:92) - Email id 1
+[INFO ] 2016-11-08 17:26:02.259 [JavaFX Application Thread] com.thaivun01.controllers.EmailTableLayoutController.updateEmailLayout(EmailTableLayoutController.java:93) - Email Subject Test Messages
+[INFO ] 2016-11-08 17:26:14.825 [JavaFX Application Thread] com.thaivun01.controllers.EmailTableLayoutController.updateEmailLayout(EmailTableLayoutController.java:92) - Email id 1
+[INFO ] 2016-11-08 17:26:14.825 [JavaFX Application Thread] com.thaivun01.controllers.EmailTableLayoutController.updateEmailLayout(EmailTableLayoutController.java:93) - Email Subject Test Messages
+[INFO ] 2016-11-08 17:33:16.951 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createConfigForm(MainApp.java:73) - Resource java.util.PropertyResourceBundle@23aaeded
+[INFO ] 2016-11-08 17:33:16.998 [JavaFX Application Thread] com.thaivun01.controllers.ConfigFormController.initialize(ConfigFormController.java:75) - Resources java.util.PropertyResourceBundle@23aaeded
+[INFO ] 2016-11-08 17:33:17.059 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createMainLayout(MainApp.java:88) - Resource java.util.PropertyResourceBundle@23aaeded
+[INFO ] 2016-11-08 17:33:17.070 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.initialize(TopLevelContainerLayoutController.java:55) - Resources java.util.PropertyResourceBundle@23aaeded
+[INFO ] 2016-11-08 17:33:17.077 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.loadRootLayout(TopLevelContainerLayoutController.java:94) - Resources  java.util.PropertyResourceBundle@23aaeded
+[INFO ] 2016-11-08 17:33:17.083 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.initialize(RootClientLayoutController.java:65) - Resources java.util.PropertyResourceBundle@23aaeded
+[INFO ] 2016-11-08 17:33:17.086 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLeft(RootClientLayoutController.java:108) - Resources  java.util.PropertyResourceBundle@23aaeded
+[INFO ] 2016-11-08 17:33:17.097 [JavaFX Application Thread] com.thaivun01.controllers.EmailFolderTreeLayoutController.initialize(EmailFolderTreeLayoutController.java:55) - Resources java.util.PropertyResourceBundle@23aaeded
+[INFO ] 2016-11-08 17:33:17.100 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:132) - Resources  java.util.PropertyResourceBundle@23aaeded
+[INFO ] 2016-11-08 17:33:17.123 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLowerRight(RootClientLayoutController.java:160) - Resources  java.util.PropertyResourceBundle@23aaeded
+[INFO ] 2016-11-08 17:33:20.252 [JavaFX Application Thread] com.thaivun01.controllers.EmailTableLayoutController.updateEmailLayout(EmailTableLayoutController.java:92) - Email id 1
+[INFO ] 2016-11-08 17:33:20.254 [JavaFX Application Thread] com.thaivun01.controllers.EmailTableLayoutController.updateEmailLayout(EmailTableLayoutController.java:93) - Email Subject Test Messages
+[INFO ] 2016-11-08 17:33:24.151 [JavaFX Application Thread] com.thaivun01.controllers.EmailTableLayoutController.updateEmailLayout(EmailTableLayoutController.java:92) - Email id 1
+[INFO ] 2016-11-08 17:33:24.152 [JavaFX Application Thread] com.thaivun01.controllers.EmailTableLayoutController.updateEmailLayout(EmailTableLayoutController.java:93) - Email Subject Test Messages
+[INFO ] 2016-11-08 19:27:36.764 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createConfigForm(MainApp.java:73) - Resource java.util.PropertyResourceBundle@283e6424
+[INFO ] 2016-11-08 19:27:36.816 [JavaFX Application Thread] com.thaivun01.controllers.ConfigFormController.initialize(ConfigFormController.java:75) - Resources java.util.PropertyResourceBundle@283e6424
+[INFO ] 2016-11-08 19:27:36.875 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createMainLayout(MainApp.java:88) - Resource java.util.PropertyResourceBundle@283e6424
+[INFO ] 2016-11-08 19:27:36.886 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.initialize(TopLevelContainerLayoutController.java:55) - Resources java.util.PropertyResourceBundle@283e6424
+[INFO ] 2016-11-08 19:27:36.894 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.loadRootLayout(TopLevelContainerLayoutController.java:94) - Resources  java.util.PropertyResourceBundle@283e6424
+[INFO ] 2016-11-08 19:27:36.900 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.initialize(RootClientLayoutController.java:65) - Resources java.util.PropertyResourceBundle@283e6424
+[INFO ] 2016-11-08 19:27:36.903 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLeft(RootClientLayoutController.java:109) - Resources  java.util.PropertyResourceBundle@283e6424
+[INFO ] 2016-11-08 19:27:36.916 [JavaFX Application Thread] com.thaivun01.controllers.EmailFolderTreeLayoutController.initialize(EmailFolderTreeLayoutController.java:55) - Resources java.util.PropertyResourceBundle@283e6424
+[INFO ] 2016-11-08 19:27:36.919 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:133) - Resources  java.util.PropertyResourceBundle@283e6424
+[INFO ] 2016-11-08 19:27:36.944 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLowerRight(RootClientLayoutController.java:161) - Resources  java.util.PropertyResourceBundle@283e6424
+[INFO ] 2016-11-08 19:27:43.968 [JavaFX Application Thread] com.thaivun01.controllers.EmailTableLayoutController.updateEmailLayout(EmailTableLayoutController.java:92) - Email id 1
+[INFO ] 2016-11-08 19:27:43.969 [JavaFX Application Thread] com.thaivun01.controllers.EmailTableLayoutController.updateEmailLayout(EmailTableLayoutController.java:93) - Email Subject Test Messages
+[INFO ] 2016-11-08 19:27:51.435 [JavaFX Application Thread] com.thaivun01.controllers.EmailTableLayoutController.updateEmailLayout(EmailTableLayoutController.java:92) - Email id 1
+[INFO ] 2016-11-08 19:27:51.436 [JavaFX Application Thread] com.thaivun01.controllers.EmailTableLayoutController.updateEmailLayout(EmailTableLayoutController.java:93) - Email Subject Test Messages
+[INFO ] 2016-11-08 19:27:56.701 [JavaFX Application Thread] com.thaivun01.controllers.EmailTableLayoutController.updateEmailLayout(EmailTableLayoutController.java:92) - Email id 1
+[INFO ] 2016-11-08 19:27:56.702 [JavaFX Application Thread] com.thaivun01.controllers.EmailTableLayoutController.updateEmailLayout(EmailTableLayoutController.java:93) - Email Subject Test Messages
+[INFO ] 2016-11-08 19:36:17.133 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createConfigForm(MainApp.java:73) - Resource java.util.PropertyResourceBundle@11183723
+[INFO ] 2016-11-08 19:36:17.181 [JavaFX Application Thread] com.thaivun01.controllers.ConfigFormController.initialize(ConfigFormController.java:75) - Resources java.util.PropertyResourceBundle@11183723
+[INFO ] 2016-11-08 19:36:17.235 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createMainLayout(MainApp.java:88) - Resource java.util.PropertyResourceBundle@11183723
+[INFO ] 2016-11-08 19:36:17.248 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.initialize(TopLevelContainerLayoutController.java:55) - Resources java.util.PropertyResourceBundle@11183723
+[INFO ] 2016-11-08 19:36:17.258 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.loadRootLayout(TopLevelContainerLayoutController.java:94) - Resources  java.util.PropertyResourceBundle@11183723
+[INFO ] 2016-11-08 19:36:17.266 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.initialize(RootClientLayoutController.java:65) - Resources java.util.PropertyResourceBundle@11183723
+[INFO ] 2016-11-08 19:36:17.270 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLeft(RootClientLayoutController.java:109) - Resources  java.util.PropertyResourceBundle@11183723
+[INFO ] 2016-11-08 19:36:17.283 [JavaFX Application Thread] com.thaivun01.controllers.EmailFolderTreeLayoutController.initialize(EmailFolderTreeLayoutController.java:55) - Resources java.util.PropertyResourceBundle@11183723
+[INFO ] 2016-11-08 19:36:17.285 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:133) - Resources  java.util.PropertyResourceBundle@11183723
+[INFO ] 2016-11-08 19:36:17.310 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLowerRight(RootClientLayoutController.java:161) - Resources  java.util.PropertyResourceBundle@11183723
+[INFO ] 2016-11-08 19:36:21.321 [JavaFX Application Thread] com.thaivun01.controllers.EmailTableLayoutController.updateEmailLayout(EmailTableLayoutController.java:92) - Email id 1
+[INFO ] 2016-11-08 19:36:21.322 [JavaFX Application Thread] com.thaivun01.controllers.EmailTableLayoutController.updateEmailLayout(EmailTableLayoutController.java:93) - Email Subject Test Messages
+[INFO ] 2016-11-08 19:37:31.138 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createConfigForm(MainApp.java:73) - Resource java.util.PropertyResourceBundle@7ffc15f5
+[INFO ] 2016-11-08 19:37:31.192 [JavaFX Application Thread] com.thaivun01.controllers.ConfigFormController.initialize(ConfigFormController.java:75) - Resources java.util.PropertyResourceBundle@7ffc15f5
+[INFO ] 2016-11-08 19:37:31.252 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createMainLayout(MainApp.java:88) - Resource java.util.PropertyResourceBundle@7ffc15f5
+[INFO ] 2016-11-08 19:37:31.265 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.initialize(TopLevelContainerLayoutController.java:55) - Resources java.util.PropertyResourceBundle@7ffc15f5
+[INFO ] 2016-11-08 19:37:31.275 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.loadRootLayout(TopLevelContainerLayoutController.java:94) - Resources  java.util.PropertyResourceBundle@7ffc15f5
+[INFO ] 2016-11-08 19:37:31.283 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.initialize(RootClientLayoutController.java:65) - Resources java.util.PropertyResourceBundle@7ffc15f5
+[INFO ] 2016-11-08 19:37:31.288 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLeft(RootClientLayoutController.java:109) - Resources  java.util.PropertyResourceBundle@7ffc15f5
+[INFO ] 2016-11-08 19:37:31.297 [JavaFX Application Thread] com.thaivun01.controllers.EmailFolderTreeLayoutController.initialize(EmailFolderTreeLayoutController.java:55) - Resources java.util.PropertyResourceBundle@7ffc15f5
+[INFO ] 2016-11-08 19:37:31.299 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:133) - Resources  java.util.PropertyResourceBundle@7ffc15f5
+[INFO ] 2016-11-08 19:37:31.323 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLowerRight(RootClientLayoutController.java:161) - Resources  java.util.PropertyResourceBundle@7ffc15f5
+[INFO ] 2016-11-08 19:37:34.302 [JavaFX Application Thread] com.thaivun01.controllers.EmailTableLayoutController.updateEmailLayout(EmailTableLayoutController.java:92) - Email id 1
+[INFO ] 2016-11-08 19:37:34.303 [JavaFX Application Thread] com.thaivun01.controllers.EmailTableLayoutController.updateEmailLayout(EmailTableLayoutController.java:93) - Email Subject Test Messages
+[INFO ] 2016-11-08 19:39:43.837 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createConfigForm(MainApp.java:73) - Resource java.util.PropertyResourceBundle@23aaeded
+[INFO ] 2016-11-08 19:39:43.885 [JavaFX Application Thread] com.thaivun01.controllers.ConfigFormController.initialize(ConfigFormController.java:75) - Resources java.util.PropertyResourceBundle@23aaeded
+[INFO ] 2016-11-08 19:39:43.940 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createMainLayout(MainApp.java:88) - Resource java.util.PropertyResourceBundle@23aaeded
+[INFO ] 2016-11-08 19:39:43.953 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.initialize(TopLevelContainerLayoutController.java:55) - Resources java.util.PropertyResourceBundle@23aaeded
+[INFO ] 2016-11-08 19:39:43.962 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.loadRootLayout(TopLevelContainerLayoutController.java:94) - Resources  java.util.PropertyResourceBundle@23aaeded
+[INFO ] 2016-11-08 19:39:43.970 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.initialize(RootClientLayoutController.java:65) - Resources java.util.PropertyResourceBundle@23aaeded
+[INFO ] 2016-11-08 19:39:43.973 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLeft(RootClientLayoutController.java:109) - Resources  java.util.PropertyResourceBundle@23aaeded
+[INFO ] 2016-11-08 19:39:43.985 [JavaFX Application Thread] com.thaivun01.controllers.EmailFolderTreeLayoutController.initialize(EmailFolderTreeLayoutController.java:55) - Resources java.util.PropertyResourceBundle@23aaeded
+[INFO ] 2016-11-08 19:39:43.988 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:133) - Resources  java.util.PropertyResourceBundle@23aaeded
+[INFO ] 2016-11-08 19:39:44.010 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLowerRight(RootClientLayoutController.java:161) - Resources  java.util.PropertyResourceBundle@23aaeded
+[INFO ] 2016-11-08 19:39:47.902 [JavaFX Application Thread] com.thaivun01.controllers.EmailTableLayoutController.updateEmailLayout(EmailTableLayoutController.java:92) - Email id 1
+[INFO ] 2016-11-08 19:39:47.902 [JavaFX Application Thread] com.thaivun01.controllers.EmailTableLayoutController.updateEmailLayout(EmailTableLayoutController.java:93) - Email Subject Test Messages
+[INFO ] 2016-11-08 19:48:24.296 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createConfigForm(MainApp.java:73) - Resource java.util.PropertyResourceBundle@35f0a9f8
+[INFO ] 2016-11-08 19:48:24.345 [JavaFX Application Thread] com.thaivun01.controllers.ConfigFormController.initialize(ConfigFormController.java:75) - Resources java.util.PropertyResourceBundle@35f0a9f8
+[INFO ] 2016-11-08 19:48:24.400 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createMainLayout(MainApp.java:88) - Resource java.util.PropertyResourceBundle@35f0a9f8
+[INFO ] 2016-11-08 19:48:24.414 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.initialize(TopLevelContainerLayoutController.java:55) - Resources java.util.PropertyResourceBundle@35f0a9f8
+[INFO ] 2016-11-08 19:48:24.422 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.loadRootLayout(TopLevelContainerLayoutController.java:95) - Resources  java.util.PropertyResourceBundle@35f0a9f8
+[INFO ] 2016-11-08 19:48:24.429 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.initialize(RootClientLayoutController.java:65) - Resources java.util.PropertyResourceBundle@35f0a9f8
+[INFO ] 2016-11-08 19:48:24.432 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLeft(RootClientLayoutController.java:109) - Resources  java.util.PropertyResourceBundle@35f0a9f8
+[INFO ] 2016-11-08 19:48:24.443 [JavaFX Application Thread] com.thaivun01.controllers.EmailFolderTreeLayoutController.initialize(EmailFolderTreeLayoutController.java:55) - Resources java.util.PropertyResourceBundle@35f0a9f8
+[INFO ] 2016-11-08 19:48:24.447 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:133) - Resources  java.util.PropertyResourceBundle@35f0a9f8
+[INFO ] 2016-11-08 19:48:24.473 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLowerRight(RootClientLayoutController.java:161) - Resources  java.util.PropertyResourceBundle@35f0a9f8
+[INFO ] 2016-11-08 19:48:28.304 [JavaFX Application Thread] com.thaivun01.controllers.EmailTableLayoutController.updateEmailLayout(EmailTableLayoutController.java:92) - Email id 1
+[INFO ] 2016-11-08 19:48:28.305 [JavaFX Application Thread] com.thaivun01.controllers.EmailTableLayoutController.updateEmailLayout(EmailTableLayoutController.java:93) - Email Subject Test Messages
+[INFO ] 2016-11-08 19:48:45.502 [JavaFX Application Thread] com.thaivun01.controllers.EmailTableLayoutController.updateEmailLayout(EmailTableLayoutController.java:92) - Email id 1
+[INFO ] 2016-11-08 19:48:45.503 [JavaFX Application Thread] com.thaivun01.controllers.EmailTableLayoutController.updateEmailLayout(EmailTableLayoutController.java:93) - Email Subject Test Messages
+[INFO ] 2016-11-08 19:48:52.662 [JavaFX Application Thread] com.thaivun01.controllers.EmailTableLayoutController.updateEmailLayout(EmailTableLayoutController.java:92) - Email id 1
+[INFO ] 2016-11-08 19:48:52.663 [JavaFX Application Thread] com.thaivun01.controllers.EmailTableLayoutController.updateEmailLayout(EmailTableLayoutController.java:93) - Email Subject Test Messages
+[INFO ] 2016-11-08 19:51:45.895 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createConfigForm(MainApp.java:73) - Resource java.util.PropertyResourceBundle@1e154c02
+[INFO ] 2016-11-08 19:51:45.955 [JavaFX Application Thread] com.thaivun01.controllers.ConfigFormController.initialize(ConfigFormController.java:75) - Resources java.util.PropertyResourceBundle@1e154c02
+[INFO ] 2016-11-08 19:51:46.022 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createMainLayout(MainApp.java:88) - Resource java.util.PropertyResourceBundle@1e154c02
+[INFO ] 2016-11-08 19:51:46.032 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.initialize(TopLevelContainerLayoutController.java:55) - Resources java.util.PropertyResourceBundle@1e154c02
+[INFO ] 2016-11-08 19:51:46.040 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.loadRootLayout(TopLevelContainerLayoutController.java:95) - Resources  java.util.PropertyResourceBundle@1e154c02
+[INFO ] 2016-11-08 19:51:46.046 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.initialize(RootClientLayoutController.java:65) - Resources java.util.PropertyResourceBundle@1e154c02
+[INFO ] 2016-11-08 19:51:46.050 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLeft(RootClientLayoutController.java:109) - Resources  java.util.PropertyResourceBundle@1e154c02
+[INFO ] 2016-11-08 19:51:46.061 [JavaFX Application Thread] com.thaivun01.controllers.EmailFolderTreeLayoutController.initialize(EmailFolderTreeLayoutController.java:55) - Resources java.util.PropertyResourceBundle@1e154c02
+[INFO ] 2016-11-08 19:51:46.063 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:133) - Resources  java.util.PropertyResourceBundle@1e154c02
+[INFO ] 2016-11-08 19:51:46.087 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLowerRight(RootClientLayoutController.java:161) - Resources  java.util.PropertyResourceBundle@1e154c02
+[INFO ] 2016-11-08 19:51:49.441 [JavaFX Application Thread] com.thaivun01.controllers.EmailTableLayoutController.updateEmailLayout(EmailTableLayoutController.java:92) - Email id 1
+[INFO ] 2016-11-08 19:51:49.442 [JavaFX Application Thread] com.thaivun01.controllers.EmailTableLayoutController.updateEmailLayout(EmailTableLayoutController.java:93) - Email Subject Test Messages
+[INFO ] 2016-11-08 19:52:37.074 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createConfigForm(MainApp.java:73) - Resource java.util.PropertyResourceBundle@1e154c02
+[INFO ] 2016-11-08 19:52:37.123 [JavaFX Application Thread] com.thaivun01.controllers.ConfigFormController.initialize(ConfigFormController.java:75) - Resources java.util.PropertyResourceBundle@1e154c02
+[INFO ] 2016-11-08 19:52:37.181 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createMainLayout(MainApp.java:88) - Resource java.util.PropertyResourceBundle@1e154c02
+[INFO ] 2016-11-08 19:52:37.194 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.initialize(TopLevelContainerLayoutController.java:55) - Resources java.util.PropertyResourceBundle@1e154c02
+[INFO ] 2016-11-08 19:52:37.201 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.loadRootLayout(TopLevelContainerLayoutController.java:95) - Resources  java.util.PropertyResourceBundle@1e154c02
+[INFO ] 2016-11-08 19:52:37.207 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.initialize(RootClientLayoutController.java:65) - Resources java.util.PropertyResourceBundle@1e154c02
+[INFO ] 2016-11-08 19:52:37.210 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLeft(RootClientLayoutController.java:109) - Resources  java.util.PropertyResourceBundle@1e154c02
+[INFO ] 2016-11-08 19:52:37.221 [JavaFX Application Thread] com.thaivun01.controllers.EmailFolderTreeLayoutController.initialize(EmailFolderTreeLayoutController.java:55) - Resources java.util.PropertyResourceBundle@1e154c02
+[INFO ] 2016-11-08 19:52:37.223 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:133) - Resources  java.util.PropertyResourceBundle@1e154c02
+[INFO ] 2016-11-08 19:52:37.246 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLowerRight(RootClientLayoutController.java:161) - Resources  java.util.PropertyResourceBundle@1e154c02
+[INFO ] 2016-11-08 19:52:40.322 [JavaFX Application Thread] com.thaivun01.controllers.EmailTableLayoutController.updateEmailLayout(EmailTableLayoutController.java:92) - Email id 1
+[INFO ] 2016-11-08 19:52:40.323 [JavaFX Application Thread] com.thaivun01.controllers.EmailTableLayoutController.updateEmailLayout(EmailTableLayoutController.java:93) - Email Subject Test Messages
+[INFO ] 2016-11-08 19:52:51.540 [JavaFX Application Thread] com.thaivun01.controllers.EmailTableLayoutController.updateEmailLayout(EmailTableLayoutController.java:92) - Email id 1
+[INFO ] 2016-11-08 19:52:51.541 [JavaFX Application Thread] com.thaivun01.controllers.EmailTableLayoutController.updateEmailLayout(EmailTableLayoutController.java:93) - Email Subject Test Messages
+[INFO ] 2016-11-08 19:55:32.562 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createConfigForm(MainApp.java:73) - Resource java.util.PropertyResourceBundle@35f0a9f8
+[INFO ] 2016-11-08 19:55:32.612 [JavaFX Application Thread] com.thaivun01.controllers.ConfigFormController.initialize(ConfigFormController.java:75) - Resources java.util.PropertyResourceBundle@35f0a9f8
+[INFO ] 2016-11-08 19:55:32.664 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createMainLayout(MainApp.java:88) - Resource java.util.PropertyResourceBundle@35f0a9f8
+[INFO ] 2016-11-08 19:55:32.676 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.initialize(TopLevelContainerLayoutController.java:55) - Resources java.util.PropertyResourceBundle@35f0a9f8
+[INFO ] 2016-11-08 19:55:32.683 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.loadRootLayout(TopLevelContainerLayoutController.java:95) - Resources  java.util.PropertyResourceBundle@35f0a9f8
+[INFO ] 2016-11-08 19:55:32.690 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.initialize(RootClientLayoutController.java:65) - Resources java.util.PropertyResourceBundle@35f0a9f8
+[INFO ] 2016-11-08 19:55:32.694 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLeft(RootClientLayoutController.java:109) - Resources  java.util.PropertyResourceBundle@35f0a9f8
+[INFO ] 2016-11-08 19:55:32.704 [JavaFX Application Thread] com.thaivun01.controllers.EmailFolderTreeLayoutController.initialize(EmailFolderTreeLayoutController.java:55) - Resources java.util.PropertyResourceBundle@35f0a9f8
+[INFO ] 2016-11-08 19:55:32.707 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:133) - Resources  java.util.PropertyResourceBundle@35f0a9f8
+[INFO ] 2016-11-08 19:55:32.731 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLowerRight(RootClientLayoutController.java:161) - Resources  java.util.PropertyResourceBundle@35f0a9f8
+[INFO ] 2016-11-08 19:55:38.024 [JavaFX Application Thread] com.thaivun01.controllers.EmailTableLayoutController.updateEmailLayout(EmailTableLayoutController.java:92) - Email id 1
+[INFO ] 2016-11-08 19:55:38.025 [JavaFX Application Thread] com.thaivun01.controllers.EmailTableLayoutController.updateEmailLayout(EmailTableLayoutController.java:93) - Email Subject Test Messages
+[INFO ] 2016-11-08 20:01:09.801 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createConfigForm(MainApp.java:73) - Resource java.util.PropertyResourceBundle@35f0a9f8
+[INFO ] 2016-11-08 20:01:09.851 [JavaFX Application Thread] com.thaivun01.controllers.ConfigFormController.initialize(ConfigFormController.java:75) - Resources java.util.PropertyResourceBundle@35f0a9f8
+[INFO ] 2016-11-08 20:01:09.907 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createMainLayout(MainApp.java:88) - Resource java.util.PropertyResourceBundle@35f0a9f8
+[INFO ] 2016-11-08 20:01:09.919 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.initialize(TopLevelContainerLayoutController.java:55) - Resources java.util.PropertyResourceBundle@35f0a9f8
+[INFO ] 2016-11-08 20:01:09.926 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.loadRootLayout(TopLevelContainerLayoutController.java:95) - Resources  java.util.PropertyResourceBundle@35f0a9f8
+[INFO ] 2016-11-08 20:01:09.933 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.initialize(RootClientLayoutController.java:65) - Resources java.util.PropertyResourceBundle@35f0a9f8
+[INFO ] 2016-11-08 20:01:09.936 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLeft(RootClientLayoutController.java:109) - Resources  java.util.PropertyResourceBundle@35f0a9f8
+[INFO ] 2016-11-08 20:01:09.946 [JavaFX Application Thread] com.thaivun01.controllers.EmailFolderTreeLayoutController.initialize(EmailFolderTreeLayoutController.java:55) - Resources java.util.PropertyResourceBundle@35f0a9f8
+[INFO ] 2016-11-08 20:01:09.949 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:133) - Resources  java.util.PropertyResourceBundle@35f0a9f8
+[INFO ] 2016-11-08 20:01:09.975 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLowerRight(RootClientLayoutController.java:161) - Resources  java.util.PropertyResourceBundle@35f0a9f8
+[INFO ] 2016-11-08 20:01:14.272 [JavaFX Application Thread] com.thaivun01.controllers.EmailTableLayoutController.updateEmailLayout(EmailTableLayoutController.java:87) - Email id 1
+[INFO ] 2016-11-08 20:01:14.273 [JavaFX Application Thread] com.thaivun01.controllers.EmailTableLayoutController.updateEmailLayout(EmailTableLayoutController.java:88) - Email Subject Test Messages
+[INFO ] 2016-11-08 20:01:24.474 [JavaFX Application Thread] com.thaivun01.controllers.EmailTableLayoutController.updateEmailLayout(EmailTableLayoutController.java:87) - Email id 1
+[INFO ] 2016-11-08 20:01:24.475 [JavaFX Application Thread] com.thaivun01.controllers.EmailTableLayoutController.updateEmailLayout(EmailTableLayoutController.java:88) - Email Subject Test Messages
+[INFO ] 2016-11-08 20:11:17.948 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createConfigForm(MainApp.java:73) - Resource java.util.PropertyResourceBundle@78207e0b
+[INFO ] 2016-11-08 20:11:17.998 [JavaFX Application Thread] com.thaivun01.controllers.ConfigFormController.initialize(ConfigFormController.java:75) - Resources java.util.PropertyResourceBundle@78207e0b
+[INFO ] 2016-11-08 20:11:18.054 [JavaFX Application Thread] com.thaivun01.mailapplicationproject.MainApp.createMainLayout(MainApp.java:88) - Resource java.util.PropertyResourceBundle@78207e0b
+[INFO ] 2016-11-08 20:11:18.069 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.initialize(TopLevelContainerLayoutController.java:55) - Resources java.util.PropertyResourceBundle@78207e0b
+[INFO ] 2016-11-08 20:11:18.078 [JavaFX Application Thread] com.thaivun01.controllers.TopLevelContainerLayoutController.loadRootLayout(TopLevelContainerLayoutController.java:95) - Resources  java.util.PropertyResourceBundle@78207e0b
+[INFO ] 2016-11-08 20:11:18.085 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.initialize(RootClientLayoutController.java:65) - Resources java.util.PropertyResourceBundle@78207e0b
+[INFO ] 2016-11-08 20:11:18.088 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLeft(RootClientLayoutController.java:109) - Resources  java.util.PropertyResourceBundle@78207e0b
+[INFO ] 2016-11-08 20:11:18.097 [JavaFX Application Thread] com.thaivun01.controllers.EmailFolderTreeLayoutController.initialize(EmailFolderTreeLayoutController.java:55) - Resources java.util.PropertyResourceBundle@78207e0b
+[INFO ] 2016-11-08 20:11:18.099 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadUpperRight(RootClientLayoutController.java:133) - Resources  java.util.PropertyResourceBundle@78207e0b
+[INFO ] 2016-11-08 20:11:18.125 [JavaFX Application Thread] com.thaivun01.controllers.RootClientLayoutController.loadLowerRight(RootClientLayoutController.java:161) - Resources  java.util.PropertyResourceBundle@78207e0b
+[INFO ] 2016-11-08 20:17:00.075 [JavaFX Application Thread] com.thaivun01.controllers.EmailTableLayoutController.updateEmailLayout(EmailTableLayoutController.java:87) - Email id 1
+[INFO ] 2016-11-08 20:17:00.076 [JavaFX Application Thread] com.thaivun01.controllers.EmailTableLayoutController.updateEmailLayout(EmailTableLayoutController.java:88) - Email Subject Test Messages

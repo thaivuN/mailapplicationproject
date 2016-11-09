@@ -11,8 +11,6 @@ import com.thaivun01.manager.PropertiesManager;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -20,6 +18,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Alert;
 import javafx.scene.layout.AnchorPane;
+import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
@@ -29,9 +28,9 @@ import org.slf4j.LoggerFactory;
  */
 public class TopLevelContainerLayoutController implements Initializable {
 
-    private final org.slf4j.Logger log = LoggerFactory.getLogger(getClass().getName());
+    private final Logger log = LoggerFactory.getLogger(getClass().getName());
     
-    @FXML // ResourceBundle that was given to the FXMLLoader
+    @FXML
     private ResourceBundle resources;
 
 
@@ -50,9 +49,12 @@ public class TopLevelContainerLayoutController implements Initializable {
     /**
      * Initializes the controller class.
      */
+    @FXML
     @Override
-    public void initialize(URL url, ResourceBundle rb) {
-        // TODO
+    public void initialize(URL location, ResourceBundle resources) {
+        log.info("Resources " + resources );
+        this.resources = resources;
+        
     }    
     
     @FXML
@@ -71,20 +73,27 @@ public class TopLevelContainerLayoutController implements Initializable {
 
     }
     
+    @FXML
     void onNewEmail(ActionEvent event){
         
+        rootController.getEmailController().requestNewMessage();
+        
     }
     
+    @FXML
     void onReplyEmail(ActionEvent event){
-        
+        rootController.getEmailController().replyMessage();
     }
     
+    @FXML
     void onForwardEmail(ActionEvent event){
-        
+        rootController.getEmailController().forwardMessage();
     }
     
     public void loadRootLayout(){
         FXMLLoader loader = new FXMLLoader();
+       
+        log.info("Resources  " + resources);
         loader.setResources(resources);
         
         loader.setLocation(MainApp.class.getResource("/fxml/RootClientLayout.fxml"));

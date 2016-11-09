@@ -4,7 +4,7 @@ com\thaivun01\database\EmailDAOImpl.class
 com\thaivun01\beans\BoostedEmail.class
 com\thaivun01\database\EmailDAO.class
 com\thaivun01\controllers\EmailFolderTreeLayoutController.class
-com\thaivun01\controllers\EmailEditorLayoutController.class
+com\thaivun01\controllers\EmailEditorViewLayoutController.class
 com\thaivun01\controllers\EmailTableLayoutController.class
 com\thaivun01\manager\PropertiesManager.class
 com\thaivun01\business\EmailClientFace.class
@@ -15,5 +15,6 @@ validator\SuperValidator.class
 com\thaivun01\beans\FolderBean.class
 com\thaivun01\beans\ConfigurationBean.class
 com\thaivun01\controllers\EmailFolderTreeLayoutController$1.class
+com\thaivun01\controllers\EmailHtmlLayoutController.class
 com\thaivun01\controllers\RootClientLayoutController.class
 com\thaivun01\controllers\ConfigFormController.class
