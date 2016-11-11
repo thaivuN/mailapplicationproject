@@ -16,6 +16,7 @@ import java.io.StringReader;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Scanner;
@@ -101,10 +102,13 @@ public class FolderDAOTest {
         
         List<FolderBean> folders = dao.getAllFolders();
         
-        String[] real = new String[folders.size()];
+        String[] real = new String[folders.size()];  
         
         for (int i=0; i< real.length;i++)
             real[i] = folders.get(i).getFolderName();
+        
+       Arrays.sort(real);
+        Arrays.sort(expected);
         
         assertArrayEquals(expected, real);
     }
