@@ -31,8 +31,14 @@ public class EmailPreview {
         this.from = new SimpleStringProperty(from);
         
         //Converting to LocalDateTime
-        LocalDateTime ldt = LocalDateTime.ofInstant(date.toInstant(), ZoneId.systemDefault());
-        this.dateRecvd = new SimpleStringProperty(ldt.toString());
+        if (date == null){
+            this.dateRecvd = new SimpleStringProperty("");
+        }else{
+            LocalDateTime ldt = LocalDateTime.ofInstant(date.toInstant(), ZoneId.systemDefault());
+            this.dateRecvd = new SimpleStringProperty(ldt.toString());
+            
+        }
+        
     }
 
     public IntegerProperty getId() {
@@ -80,8 +86,14 @@ public class EmailPreview {
     }
 
     public void setDateRecvd(Date dateRecvd) {
-        LocalDateTime ldt = LocalDateTime.ofInstant(dateRecvd.toInstant(), ZoneId.systemDefault());
-        this.dateRecvd.set(ldt.toString());
+        //Converting to LocalDateTime
+        if (dateRecvd == null){
+            this.dateRecvd = new SimpleStringProperty("");
+        }else{
+            LocalDateTime ldt = LocalDateTime.ofInstant(dateRecvd.toInstant(), ZoneId.systemDefault());
+            this.dateRecvd = new SimpleStringProperty(ldt.toString());
+            
+        }
     }
      
     
