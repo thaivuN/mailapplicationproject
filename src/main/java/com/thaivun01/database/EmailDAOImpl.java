@@ -120,7 +120,7 @@ public class EmailDAOImpl implements EmailDAO {
     @Override
     public ArrayList<FolderBean> getAllFolders() throws SQLException {
         ArrayList<FolderBean> folders = new ArrayList<>();
-        String query = "SELECT FOLDER_ID, FOLDER_NAME FROM FOLDER";
+        String query = "SELECT FOLDER_ID, FOLDER_NAME FROM FOLDER ORDER BY FOLDER_ID ASC";
         try (Connection c = DriverManager.getConnection(config.getDbUrl(),
                 config.getDbUser(), config.getDbPwd());
                 PreparedStatement ps = c.prepareStatement(query);
@@ -178,6 +178,35 @@ public class EmailDAOImpl implements EmailDAO {
         
         return result;
     }
+
+    /**
+     * Updates the Email's Folder
+     * 
+     * @param email_id int
+     * @param folder_id int
+     * @return number of rows affects
+     * @throws SQLException 
+     */
+    @Override
+    public int updateEmailFolder(int email_id, int folder_id) throws SQLException {
+        int result = 0;
+        
+        String query = "UPDATE EMAIL SET FOLDER_ID = ? WHERE EMAIL_ID = ?";
+        
+        try(Connection c = DriverManager.getConnection(config.getDbUrl(),
+                config.getDbUser(), config.getDbPwd());
+                PreparedStatement ps = c.prepareStatement(query);){
+            
+            ps.setInt(1, folder_id);
+            ps.setInt(2, email_id);
+            
+            result = ps.executeUpdate();
+            
+        }
+        
+        return result;
+    }
+    
     
     
     /**

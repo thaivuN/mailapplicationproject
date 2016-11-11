@@ -63,6 +63,19 @@ public interface EmailDAO {
      */
     public int updateEmailFolder(BoostedEmail be) throws SQLException;
     
+    
+    /**
+     * Updates the Email's Folder
+     * 
+     * @param email_id int
+     * @param folder_id int
+     * @return number of rows affects
+     * @throws SQLException 
+     */
+    public int updateEmailFolder(int email_id, int folder_id) throws SQLException;
+    
+    
+    
     /** Email **/
     
      /**
