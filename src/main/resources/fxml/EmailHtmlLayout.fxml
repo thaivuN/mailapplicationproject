@@ -84,7 +84,7 @@
                     </rowConstraints>
                      <children>
                         <Button fx:id="clearEmailBtn" mnemonicParsing="false" text="%clearBtn" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
-                        <Button fx:id="submitEmailBtn" mnemonicParsing="false" text="%submitBtn" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+                        <Button fx:id="submitEmailBtn" mnemonicParsing="false" onAction="#onSendEmail" text="%submitBtn" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
                         <Button mnemonicParsing="false" onAction="#onAttachFiles" text="%attachBtn" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
                      </children>
                   </GridPane>

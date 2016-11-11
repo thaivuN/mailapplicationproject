@@ -96,5 +96,17 @@ public class SuperValidator {
         return true;
     }
     
-    
+    public static boolean validateEmailFields (String [] tos, String subject, String [] messages, 
+            String [] htmlMessages, String [] ccs, String [] bccs, 
+            String []filenames, String[] embedFiles){
+        
+        for (int i = 0; i< tos.length; i++){
+            if(isValidEmail(tos[i]) == false)
+                return false;
+        }
+        
+        
+        
+        return false;
+    }
 }

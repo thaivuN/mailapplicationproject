@@ -31,6 +31,7 @@ import jodd.mail.EmailMessage;
 import jodd.mail.MailAddress;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import validator.SuperValidator;
 
 /**
  * FXML Controller class
@@ -130,8 +131,60 @@ public class EmailHtmlLayoutController implements Initializable {
     void onAttachFiles(ActionEvent event){
         log.info("Attach Files reached");
         
+        FileChooser chooser = new FileChooser();
+        chooser.setTitle("Load an attachments");
+        File file = chooser.showOpenDialog(stage);
+        
+        if (file != null)
+        {
+            Hyperlink link = new Hyperlink();
+            link.setText(file.getAbsolutePath());
+            attachmentView.getChildren().add(link);
+        }
+    }
+    
+    @FXML
+    void onSendEmail(ActionEvent event){
+        log.info("Send Email reached");
+        String from = fromEmailView.getText().trim();
+        String subject = subjectEmailView.getText();
+        String message = messageEmailView.getHtmlText();
+        String[] tos = extractEmails(toEmailView.getText());
+        for(int i = 0; i < tos.length; i++)
+            log.info(tos[i]);
+        String[] ccs = extractEmails(ccEmailView.getText());
+        String[] bccs = extractEmails(bccEmailView.getText());
+        String[] attaches = extractAttachment();
+        
+        if (SuperValidator.validateEmailFields(tos, subject, new String[]{}
+                , new String[]{message}, ccs, bccs, attaches, new String[]{})){
+            
+        }
+        else
+        {
+            
+        }
         
         
+    }
+    
+    private String[] extractAttachment(){
+        String[] atts = new String[attachmentView.getChildren().size()];
+        
+        for (int i = 0; i < atts.length; i++){
+            Node node = attachmentView.getChildren().get(i);
+            if (node instanceof Hyperlink){
+                Hyperlink link = (Hyperlink) node;
+                log.info(link.getText());
+                atts[i] = link.getText();
+            }
+        }
+        
+        return atts;
+    }
+    private String[] extractEmails(String compressed){
+        String [] mails = compressed.trim().split("; ");
+        return mails;
     }
     
     /**
