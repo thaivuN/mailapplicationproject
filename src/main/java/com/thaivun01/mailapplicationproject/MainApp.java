@@ -28,7 +28,6 @@ public class MainApp extends Application {
     
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("/fxml/Scene.fxml"));
         this.stage = stage;
         
 
@@ -39,8 +38,10 @@ public class MainApp extends Application {
             
             this.stage.setScene(mainScene);
             this.stage.setTitle("Mail Application");
+            topLevelController.setStage(stage);
             topLevelController.loadConfigBean();
             topLevelController.loadRootLayout();
+            
         }
         else{
             this.stage.setScene(formScene);
