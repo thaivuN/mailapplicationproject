@@ -20,6 +20,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.layout.AnchorPane;
+import javafx.stage.Stage;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -45,6 +46,7 @@ public class RootClientLayoutController implements Initializable {
    @FXML 
     private ResourceBundle resources;
    
+   private Stage stage;
    
     //Handle on the controllers
     private EmailTableLayoutController emailTableLayoutController;
@@ -163,6 +165,7 @@ public class RootClientLayoutController implements Initializable {
             
             AnchorPane emailDetailView = loader.load();
             emailHtmlLayoutController = loader.getController();
+            emailHtmlLayoutController.setStage(stage);
             emailHtmlLayoutController.setConfigBean(configBean);
             emailHtmlLayoutController.setClientBean(emailClient);
             emailHtmlLayoutController.setDAOActionBean(dao);
@@ -190,6 +193,10 @@ public class RootClientLayoutController implements Initializable {
     
     public EmailHtmlLayoutController getEmailController(){
         return emailHtmlLayoutController;
+    }
+    
+    public void setStage(Stage stage){
+        this.stage = stage;
     }
     
 }

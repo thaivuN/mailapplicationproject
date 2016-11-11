@@ -10,14 +10,20 @@ import com.thaivun01.mailapplicationproject.MainApp;
 import com.thaivun01.manager.PropertiesManager;
 import java.io.IOException;
 import java.net.URL;
+import java.sql.SQLException;
+import java.util.Optional;
 import java.util.ResourceBundle;
+import java.util.logging.Level;
 import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Alert;
+import javafx.scene.control.Alert.AlertType;
+import javafx.scene.control.TextInputDialog;
 import javafx.scene.layout.AnchorPane;
+import javafx.stage.Stage;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -41,6 +47,7 @@ public class TopLevelContainerLayoutController implements Initializable {
     private RootClientLayoutController rootController;
     private ConfigurationBean config;
     
+    private Stage stage;
     
     public TopLevelContainerLayoutController(){
         this.config = new ConfigurationBean();
@@ -90,6 +97,36 @@ public class TopLevelContainerLayoutController implements Initializable {
         rootController.getEmailController().forwardMessage();
     }
     
+    @FXML
+    void onNewFolder(ActionEvent event){
+        TextInputDialog dialog = new TextInputDialog("");
+        dialog.setTitle("Create Folder");
+        
+        dialog.setHeaderText("Create a new folder");
+        dialog.setContentText("Please write the name of the folder:");
+        
+        Optional<String> result = dialog.showAndWait();
+        
+        if (result.isPresent())
+        {
+            try {
+                rootController.getTreeController().createNewFolder(result.get());
+            } catch (SQLException ex) {
+                Alert alert = new Alert(AlertType.ERROR);
+                alert.setTitle("ERROR");
+                alert.setHeaderText("Something went wrong.");
+                alert.setContentText("We couldn't add this folder.");
+                alert.showAndWait();
+            }
+        }
+        
+    }
+    
+    @FXML
+    void onDeleteFolder(ActionEvent event){
+        
+    }
+    
     public void loadRootLayout(){
         FXMLLoader loader = new FXMLLoader();
        
@@ -102,6 +139,7 @@ public class TopLevelContainerLayoutController implements Initializable {
             AnchorPane rootPane = (AnchorPane) loader.load();
             rootController = loader.getController();
             
+            rootController.setStage(stage);
             rootController.setUpActionBeans(config);
             rootController.loadComponents();
             mainBodyAnchorPane.getChildren().add(rootPane);
@@ -114,6 +152,10 @@ public class TopLevelContainerLayoutController implements Initializable {
     public void loadConfigBean() throws IOException{
         PropertiesManager prop = new PropertiesManager();
         prop.loadPropertiesTxtFile(config, "", "ConfigurationEmail");
+    }
+    
+    public void setStage(Stage stage){
+        this.stage = stage;
     }
     
 }

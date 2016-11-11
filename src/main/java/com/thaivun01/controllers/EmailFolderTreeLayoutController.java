@@ -19,6 +19,8 @@ import javafx.scene.control.TreeCell;
 import javafx.scene.control.TreeItem;
 import javafx.scene.control.TreeView;
 import javafx.scene.image.ImageView;
+import javafx.scene.input.Dragboard;
+import javafx.scene.input.TransferMode;
 import javafx.scene.layout.AnchorPane;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -31,7 +33,7 @@ import org.slf4j.LoggerFactory;
 public class EmailFolderTreeLayoutController implements Initializable {
 
     private final Logger log = LoggerFactory.getLogger(getClass().getName());
-    
+
     @FXML
     private AnchorPane folderTreeFxLayout;
 
@@ -42,8 +44,7 @@ public class EmailFolderTreeLayoutController implements Initializable {
     private ResourceBundle resources;
 
     private EmailTableLayoutController emailTableLayoutController;
-    
-    
+
     private EmailDAO mailDAO;
     private ConfigurationBean configBean;
 
@@ -52,33 +53,15 @@ public class EmailFolderTreeLayoutController implements Initializable {
      */
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        log.info("Resources " + resources );
-        //Create root Folder
-        FolderBean rootFolder = new FolderBean();
-        rootFolder.setFolderName("Root");
-        
-        folderTreeView.setRoot(new TreeItem<FolderBean>(rootFolder));
-        
-        folderTreeView.setCellFactory((x) -> new TreeCell<FolderBean>(){
-            @Override
-            protected void updateItem(FolderBean folder, boolean isEmpty){
-                super.updateItem(folder, isEmpty);
-                if (folder != null){
-                    setText(folder.getFolderName());
-                    setGraphic(getTreeItem().getGraphic());
-                }
-                else{
-                    setText("");
-                    setGraphic(null);
-                }
-            }
-        });
-        
-        
+        log.info("Resources " + resources);
+
+        setUpTree();
+
     }
 
     /**
      * Set the DAO action class
+     *
      * @param mailDAO EmailDAO
      */
     public void setDaoObject(EmailDAO mailDAO) {
@@ -87,18 +70,97 @@ public class EmailFolderTreeLayoutController implements Initializable {
 
     /**
      * Set the user configuration bean
+     *
      * @param configBean ConfigurationBean
      */
     public void setConfigBean(ConfigurationBean configBean) {
         this.configBean = configBean;
     }
-    
+
     /**
      * Set a handle on the Email Table controller.
+     *
      * @param emailTableLayoutController EmailTableLayoutController
      */
-    public void setEmailTableLayoutController(EmailTableLayoutController emailTableLayoutController){
+    public void setEmailTableLayoutController(EmailTableLayoutController emailTableLayoutController) {
         this.emailTableLayoutController = emailTableLayoutController;
+    }
+
+    /**
+     *
+     */
+    public void setUpTree() {
+        //Create root Folder
+        FolderBean rootFolder = new FolderBean();
+        rootFolder.setFolderName("Root");
+
+        folderTreeView.setRoot(new TreeItem<FolderBean>(rootFolder));
+
+        /**
+         * folderTreeView.setCellFactory((x) -> new TreeCell<FolderBean>(){
+         *
+         * @Override protected void updateItem(FolderBean folder, boolean
+         * isEmpty){ super.updateItem(folder, isEmpty); if (folder != null){
+         * setText(folder.getFolderName());
+         * setGraphic(getTreeItem().getGraphic()); } else{ setText("");
+         * setGraphic(null); } }
+         *
+         * });
+         */
+        folderTreeView.setCellFactory(x -> {
+            TreeCell<FolderBean> tc = new TreeCell<FolderBean>() {
+                @Override
+                protected void updateItem(FolderBean folder, boolean isEmpty) {
+                    super.updateItem(folder, isEmpty);
+                    if (folder != null) {
+                        setText(folder.getFolderName());
+                        setGraphic(getTreeItem().getGraphic());
+                    } else {
+                        setText("");
+                        setGraphic(null);
+                    }
+                }
+
+            };
+            
+            tc.setOnDragOver(ev -> {
+                log.info("Drag Over");
+                if(ev.getDragboard().hasString()){
+                    log.info("Drag Value " + ev.getDragboard().getString());
+                    ev.acceptTransferModes(TransferMode.MOVE);
+                }
+                 ev.consume();
+            
+            });
+            
+            tc.setOnDragDropped(ev ->{
+                
+                log.info("Drop Detected");
+                Dragboard dragBoard = ev.getDragboard();
+                
+                
+                if (dragBoard.hasString())
+                {
+                    try {
+                        log.info("DRAG & DROP DEBUG: DROP VALUE - " + dragBoard.getString());
+                        log.info("Dropped into FolderBean of ID " + tc.treeItemProperty().get().getValue().getFolderID());
+                        mailDAO.updateEmailFolder(Integer.parseInt(dragBoard.getString()), tc.treeItemProperty().get().getValue().getFolderID());
+                        folderTreeView.getSelectionModel().select(tc.getTreeItem());
+                    } catch (SQLException ex) {
+                        log.error(ex.getMessage());
+                    }
+                    catch (NumberFormatException nfe){
+                        log.error(nfe.getMessage());
+                    }
+                    
+                }
+                
+                ev.setDropCompleted(true);
+                ev.consume();
+            });
+
+            return tc;
+        });
     }
 
     /**
@@ -112,7 +174,7 @@ public class EmailFolderTreeLayoutController implements Initializable {
 
         // Build an item for each fish and add it to the root
         if (folders != null) {
-            for(FolderBean folder : folders) {
+            for (FolderBean folder : folders) {
                 TreeItem<FolderBean> item = new TreeItem<>(folder);
                 item.setGraphic(new ImageView(getClass().getResource("/images/folder_icon.png").toExternalForm()));
                 folderTreeView.getRoot().getChildren().add(item);
@@ -126,20 +188,29 @@ public class EmailFolderTreeLayoutController implements Initializable {
         // Update the Email Table when user selects a folder
         folderTreeView.getSelectionModel().selectedItemProperty()
                 .addListener((observable, oldValue, newValue) -> updateEmailView(newValue));
+
     }
-    
+
     /**
-     * Updates the Email Table based on the selected TreeItem 
-     * @param folder 
+     * Updates the Email Table based on the selected TreeItem
+     *
+     * @param folder
      */
-    public void updateEmailView(TreeItem<FolderBean> folder){
-        
+    public void updateEmailView(TreeItem<FolderBean> folder) {
+
         FolderBean folderSelected = folder.getValue();
         try {
             emailTableLayoutController.updateEmailTable(folderSelected.getFolderID());
         } catch (SQLException ex) {
             log.error(ex.getMessage());
         }
-        
+
+    }
+
+    public void createNewFolder(String newFolder) throws SQLException {
+        mailDAO.createFolder(newFolder);
+        setUpTree();
+        displayTree();
+
     }
 }

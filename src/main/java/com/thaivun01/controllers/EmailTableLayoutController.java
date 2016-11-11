@@ -14,10 +14,16 @@ import java.sql.SQLException;
 import java.util.ResourceBundle;
 import java.util.logging.Level;
 import javafx.collections.ObservableList;
+import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.TableColumn;
+import javafx.scene.control.TableRow;
 import javafx.scene.control.TableView;
+import javafx.scene.input.ClipboardContent;
+import javafx.scene.input.Dragboard;
+import javafx.scene.input.MouseEvent;
+import javafx.scene.input.TransferMode;
 import javafx.scene.layout.AnchorPane;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -56,11 +62,36 @@ public class EmailTableLayoutController implements Initializable {
     @Override
     public void initialize(URL location, ResourceBundle resources) {
 
+        emailTableView.setRowFactory(cb ->{
+            TableRow<EmailPreview> row = new TableRow<>();
+            row.setOnDragDetected(new EventHandler<MouseEvent>(){
+                @Override
+                public void handle(MouseEvent event) {
+                    
+                    log.info("Drag Detected ");
+                    Dragboard db = row.startDragAndDrop(TransferMode.ANY);
+                    ClipboardContent content = new ClipboardContent();
+                    content.putString(row.getItem().getId().get() + "");
+                    
+                    log.info("Drag Value - " + content.getString());
+                    
+                    db.setContent(content);
+                    
+                    event.consume();
+                }
+            });
+            return row;
+        });
+        
         subjectColumnView.setCellValueFactory(cellData -> cellData.getValue().getSubject());
         fromColumnView.setCellValueFactory(cellData -> cellData.getValue().getFrom());
         dateColumnView.setCellValueFactory(cellData -> cellData.getValue().getDateRecvd());
 
+        
+        
         emailTableView.getSelectionModel().selectedItemProperty().addListener((observable, oldValue, newValue) -> updateEmailLayout(newValue));
+        
+       
     }
 
     public void setDaoObject(EmailDAO mailDAO) {

@@ -130,8 +130,10 @@ public class ConfigFormController implements Initializable {
             
             
             stage.setScene(scene);
+            mainProgramController.setStage(stage);
             mainProgramController.loadConfigBean();
             mainProgramController.loadRootLayout();
+            
             
             }
             catch (IOException ex){
