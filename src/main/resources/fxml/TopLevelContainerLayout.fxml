@@ -15,22 +15,23 @@
    <top>
       <MenuBar BorderPane.alignment="CENTER">
         <menus>
-          <Menu mnemonicParsing="false" text="File">
+          <Menu mnemonicParsing="false" text="%fileMenu">
             <items>
-              <MenuItem mnemonicParsing="false" onAction="#onClose" text="Close" />
+                  <MenuItem mnemonicParsing="false" onAction="#onRefreshEmails" text="%refreshMenu" />
+              <MenuItem mnemonicParsing="false" onAction="#onClose" text="%closeMenu" />
             </items>
           </Menu>
-            <Menu mnemonicParsing="false" text="Edit">
+            <Menu mnemonicParsing="false" text="%editMenu">
               <items>
-                <MenuItem mnemonicParsing="false" onAction="#onNewFolder" text="New Folder" />
-                  <MenuItem mnemonicParsing="false" onAction="#onDeleteFolder" text="Delete Folder" />
+                <MenuItem mnemonicParsing="false" onAction="#onNewFolder" text="%newFolderMenu" />
+                  <MenuItem mnemonicParsing="false" onAction="#onDeleteFolder" text="%delFolderMenu" />
                   <SeparatorMenuItem mnemonicParsing="false" />
-                  <MenuItem mnemonicParsing="false" onAction="#onNewEmail" text="New Email" />
+                  <MenuItem mnemonicParsing="false" onAction="#onNewEmail" text="%newEmailMenu" />
               </items>
             </Menu>
-          <Menu mnemonicParsing="false" text="Help">
+          <Menu mnemonicParsing="false" text="%helpMenu">
             <items>
-              <MenuItem mnemonicParsing="false" onAction="#onHelp" text="About" />
+              <MenuItem mnemonicParsing="false" onAction="#onHelp" text="%aboutMenu" />
             </items>
           </Menu>
         </menus>
@@ -63,6 +64,51 @@
                            <image>
                               <Image url="@../images/forwardlogo.png" />
                            </image></ImageView>
+                     </graphic>
+                  </Button>
+                  <Button layoutX="314.0" layoutY="10.0" mnemonicParsing="false" onAction="#onNewFolder">
+                     <graphic>
+                        <ImageView fitHeight="56.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/newfolderlogo.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button layoutX="314.0" layoutY="10.0" mnemonicParsing="false" onAction="#onDeleteFolder">
+                     <graphic>
+                        <ImageView fitHeight="56.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/delfolderlogo.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button layoutX="238.0" layoutY="10.0" mnemonicParsing="false" onAction="#onSettingsCalled">
+                     <graphic>
+                        <ImageView fitHeight="56.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/settinglogo.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button layoutX="162.0" layoutY="10.0" mnemonicParsing="false" onAction="#onHelp">
+                     <graphic>
+                        <ImageView fitHeight="56.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/questionlogo.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#onRefreshEmails">
+                     <graphic>
+                        <ImageView fitHeight="56.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/refreshlogo.png" />
+                           </image>
+                        </ImageView>
                      </graphic>
                   </Button>
               </items>
