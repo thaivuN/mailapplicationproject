@@ -20,6 +20,11 @@ public class SuperValidator {
 
     }
 
+    /**
+     * Check if the string is empty or null
+     * @param input String
+     * @return true or false
+     */
     private static boolean isEmpty(String input) {
         if (input == null || input.isEmpty()) {
             return true;
@@ -28,6 +33,11 @@ public class SuperValidator {
         }
     }
 
+    /**
+     * Check if the string input is numeric
+     * @param num String
+     * @return true if numeric, false if not
+     */
     private static boolean isNumeric(String num) {
 
         try {
@@ -39,6 +49,11 @@ public class SuperValidator {
         return true;
     }
 
+    /**
+     * Check if the email input is a valid email message
+     * @param email String
+     * @return true if valid, false if not valid
+     */
     public static boolean isValidEmail(String email) {
 
         EmailAddress address = new EmailAddress(email);
@@ -47,22 +62,11 @@ public class SuperValidator {
 
     }
 
-    public static boolean isValidCommaSeparatedEmails(String csEmails) {
-        if (csEmails == null || csEmails.isEmpty()) {
-            return false;
-        }
-
-        String[] emails = csEmails.split(",");
-
-        for (String email : emails) {
-            if (isValidEmail(email) != true) {
-                return false;
-            }
-        }
-
-        return true;
-    }
-
+    /**
+     * Validate the fields of the ConfigurationBean
+     * @param configBean ConfigurationBean
+     * @return true if valid, false if invalid
+     */
     public static boolean validateConfiguration(ConfigurationBean configBean) {
         String[] keys = new String[]{configBean.getUsername(),
             configBean.getDbUrl(), configBean.getDbUser(), configBean.getDbPwd(),
@@ -96,17 +100,56 @@ public class SuperValidator {
         return true;
     }
     
+    /**
+     * Validate the fields needed to send an email
+     * @param tos
+     * @param subject
+     * @param messages
+     * @param htmlMessages
+     * @param ccs
+     * @param bccs
+     * @param filenames
+     * @param embedFiles
+     * @return 
+     */
     public static boolean validateEmailFields (String [] tos, String subject, String [] messages, 
             String [] htmlMessages, String [] ccs, String [] bccs, 
             String []filenames, String[] embedFiles){
         
-        for (int i = 0; i< tos.length; i++){
-            if(isValidEmail(tos[i]) == false)
+        if (tos == null || tos.length == 0)
+            return false;
+        
+        if (subject == null || subject.isEmpty())
+            return false;
+        
+        if (validateEmails(tos) == false){
+            return false;
+        }
+        
+        if (ccs != null){
+            if (validateEmails(ccs) == false)
                 return false;
         }
         
-        
-        
-        return false;
+        if (bccs != null){
+            if (validateEmails(bccs) == false)
+                return false;
+        }
+       
+        return true;
+    }
+    
+    /**
+     * Validate an array of emails
+     * @param emails String[]
+     * @return true if valid, false if invalid
+     */
+    private static boolean validateEmails(String[] emails){
+        for (int i = 0; i < emails.length;i++){
+            if (isValidEmail(emails[i]) == false)
+                return false;
+            
+        }
+        return true;
     }
 }
