@@ -17,7 +17,7 @@ public class FolderBean {
     private IntegerProperty folderID;
     
     /**
-     * Default Constructor
+     * Default Constructor.
      */
     public FolderBean(){
         this("", -1);
@@ -49,6 +49,10 @@ public class FolderBean {
         return folderID.get();
     }
     
+    /**
+     * Getter for the ID Property
+     * @return IntegerProperty
+     */
     public IntegerProperty getFolderIDProperty(){
         return folderID;
     }
@@ -71,6 +75,10 @@ public class FolderBean {
         return folderName.get();
     }
 
+    /**
+     * Getter for the Folder name's Property
+     * @return StringProperty
+     */
     public StringProperty getFolderNameProperty(){
         return folderName;
     }

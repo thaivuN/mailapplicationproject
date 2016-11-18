@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package com.thaivun01.beans;
 
 import java.time.LocalDateTime;
@@ -15,8 +11,10 @@ import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
 
 /**
- *
- * @author MDThai
+ * Bean containing Email information about its database id, the sender of the email, the subject of the emai
+ * and the date of when the email was received
+ * 
+ * @author Thai-Vu Nguyen
  */
 public class EmailPreview {
     
@@ -48,50 +46,98 @@ public class EmailPreview {
         
     }
 
+    /**
+     * Getter for the email ID's Property
+     * @return StringProperty
+     */
     public IntegerProperty getId() {
         return id;
     }
     
+    /**
+     * Getter for the email ID
+     * @return int
+     */
     public int getIdValue(){
         return id.get();
     }
 
+    /**
+     * Setter for the email ID
+     * @param id int 
+     */
     public void setId(int id) {
         this.id.set(id);
     }
 
+    /**
+     * Getter for the Property of the sender of the email
+     * @return StringProperty
+     */
     public StringProperty getFrom() {
         return from;
     }
     
+    /**
+     * Getter for the Email Sender 
+     * @return String
+     */
     public String getFromValue(){
         return from.get();
     }
 
+    /**
+     * Setter for the Email Sender
+     * @param from String
+     */
     public void setFrom(String from) {
         this.from.set(from);
     }
 
+    /**
+     * Getter for the Email subject
+     * @return StringProperty
+     */
     public StringProperty getSubject() {
         return subject;
     }
     
+    /**
+     * Getter for the email subject Property
+     * @return StringProperty
+     */
     public String getSubjectValue(){
         return subject.get();
     }
 
+    /**
+     * Setter for the email subject
+     * @param subject String
+     */
     public void setSubject(String subject) {
         this.subject.set(subject);
     }
 
+    /**
+     * Getter for the received date's Property
+     * @return StringProperty
+     */
     public StringProperty getDateRecvd() {
         return dateRecvd;
     }
     
+    /**
+     * Getter for the received date
+     * @return String
+     */
     public String getDateRecvdValue(){
         return dateRecvd.get();
     }
 
+    /**
+     * Setter for the received date
+     * @param dateRecvd Date
+     */
     public void setDateRecvd(Date dateRecvd) {
         //Converting from Date to LocalDateTime to String
         if (dateRecvd == null){
