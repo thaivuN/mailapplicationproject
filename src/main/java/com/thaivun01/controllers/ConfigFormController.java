@@ -25,6 +25,9 @@ public class ConfigFormController implements Initializable {
     private final Logger log = LoggerFactory.getLogger(getClass().getName());
 
     @FXML
+    private ResourceBundle resources;
+    
+    @FXML
     private TextField emailAddressConfig;
 
     @FXML
@@ -73,6 +76,7 @@ public class ConfigFormController implements Initializable {
     public void initialize(URL location, ResourceBundle resources) {
         
         log.info("Resources " + resources );
+        this.resources = resources;
         
         Bindings.bindBidirectional(usernameConfig.textProperty(), configBean.getUsernameProperty());
         Bindings.bindBidirectional(emailAddressConfig.textProperty(), configBean.getEmailAddressProperty());
@@ -115,7 +119,7 @@ public class ConfigFormController implements Initializable {
     /**
      * Checks if the input is valid
      * If it is, create a properties file and launch the 
-     * @param event 
+     * @param event ActionEvent
      */
     @FXML
     void onSubmit(ActionEvent event){
@@ -130,7 +134,9 @@ public class ConfigFormController implements Initializable {
             
             
             stage.setScene(scene);
+            stage.setTitle("E-Hub");
             mainProgramController.setStage(stage);
+            mainProgramController.setTopScene(scene);
             mainProgramController.loadConfigBean();
             mainProgramController.loadRootLayout();
             
@@ -143,17 +149,23 @@ public class ConfigFormController implements Initializable {
         else
         {
             Alert alert = new Alert(AlertType.ERROR);
-            alert.setTitle("ERROR - Bad user input");
-            alert.setHeaderText("Invalid input in the form");
-            alert.setContentText("Your form submission is invalid. Please try again");
+            alert.setTitle(resources.getString("errorTitleConfig"));
+            alert.setHeaderText(resources.getString("errorHeaderConfig"));
+            alert.setContentText(resources.getString("errorContentConfig"));
             alert.showAndWait();
            
         }
             
-            
-       
         
-        
+    }
+    
+    /**
+     * Reloading the ConfigurationBean instance from an existing Properties file
+     * @param propManager PropertiesManager
+     * @throws IOException 
+     */
+    public void reloadConfigBean(PropertiesManager propManager) throws IOException{
+        propManager.loadPropertiesTxtFile(configBean, "", "ConfigurationEmail");
     }
     
     

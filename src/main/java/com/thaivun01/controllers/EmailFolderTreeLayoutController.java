@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package com.thaivun01.controllers;
 
 import com.thaivun01.beans.ConfigurationBean;
@@ -15,6 +11,7 @@ import java.util.logging.Level;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.SelectionMode;
 import javafx.scene.control.TreeCell;
 import javafx.scene.control.TreeItem;
 import javafx.scene.control.TreeView;
@@ -44,6 +41,7 @@ public class EmailFolderTreeLayoutController implements Initializable {
     private ResourceBundle resources;
 
     private EmailTableLayoutController emailTableLayoutController;
+    private EmailHtmlLayoutController emailHtmlLayoutController;
 
     private EmailDAO mailDAO;
     private ConfigurationBean configBean;
@@ -54,6 +52,7 @@ public class EmailFolderTreeLayoutController implements Initializable {
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         log.info("Resources " + resources);
+        this.resources = resources;
 
         setUpTree();
 
@@ -85,9 +84,13 @@ public class EmailFolderTreeLayoutController implements Initializable {
     public void setEmailTableLayoutController(EmailTableLayoutController emailTableLayoutController) {
         this.emailTableLayoutController = emailTableLayoutController;
     }
+    
+    public void setEmailHtmlLayoutController(EmailHtmlLayoutController emailHtmlLayoutController){
+        this.emailHtmlLayoutController = emailHtmlLayoutController;
+    }
 
     /**
-     *
+     *  Set up the Tree view of Email Folders.
      */
     public void setUpTree() {
         //Create root Folder
@@ -96,17 +99,6 @@ public class EmailFolderTreeLayoutController implements Initializable {
 
         folderTreeView.setRoot(new TreeItem<FolderBean>(rootFolder));
 
-        /**
-         * folderTreeView.setCellFactory((x) -> new TreeCell<FolderBean>(){
-         *
-         * @Override protected void updateItem(FolderBean folder, boolean
-         * isEmpty){ super.updateItem(folder, isEmpty); if (folder != null){
-         * setText(folder.getFolderName());
-         * setGraphic(getTreeItem().getGraphic()); } else{ setText("");
-         * setGraphic(null); } }
-         *
-         * });
-         */
         folderTreeView.setCellFactory(x -> {
             TreeCell<FolderBean> tc = new TreeCell<FolderBean>() {
                 @Override
@@ -122,25 +114,25 @@ public class EmailFolderTreeLayoutController implements Initializable {
                 }
 
             };
-            
+
+            //Set the TreeCell to accept a drop event
             tc.setOnDragOver(ev -> {
                 log.info("Drag Over");
-                if(ev.getDragboard().hasString()){
+                if (ev.getDragboard().hasString()) {
                     log.info("Drag Value " + ev.getDragboard().getString());
                     ev.acceptTransferModes(TransferMode.MOVE);
                 }
-                 ev.consume();
-            
+                ev.consume();
+
             });
-            
-            tc.setOnDragDropped(ev ->{
-                
+
+            //Set the TreeCell to process the drop event
+            tc.setOnDragDropped(ev -> {
+
                 log.info("Drop Detected");
                 Dragboard dragBoard = ev.getDragboard();
-                
-                
-                if (dragBoard.hasString())
-                {
+
+                if (dragBoard.hasString()) {
                     try {
                         log.info("DRAG & DROP DEBUG: DROP VALUE - " + dragBoard.getString());
                         log.info("Dropped into FolderBean of ID " + tc.treeItemProperty().get().getValue().getFolderID());
@@ -148,13 +140,12 @@ public class EmailFolderTreeLayoutController implements Initializable {
                         folderTreeView.getSelectionModel().select(tc.getTreeItem());
                     } catch (SQLException ex) {
                         log.error(ex.getMessage());
-                    }
-                    catch (NumberFormatException nfe){
+                    } catch (NumberFormatException nfe) {
                         log.error(nfe.getMessage());
                     }
-                    
+
                 }
-                
+
                 ev.setDropCompleted(true);
                 ev.consume();
             });
@@ -164,7 +155,7 @@ public class EmailFolderTreeLayoutController implements Initializable {
     }
 
     /**
-     * Build the tree from the database
+     * Build the tree from the database.
      *
      * @throws SQLException
      */
@@ -188,6 +179,7 @@ public class EmailFolderTreeLayoutController implements Initializable {
         // Update the Email Table when user selects a folder
         folderTreeView.getSelectionModel().selectedItemProperty()
                 .addListener((observable, oldValue, newValue) -> updateEmailView(newValue));
+        folderTreeView.getSelectionModel().setSelectionMode(SelectionMode.SINGLE);
 
     }
 
@@ -198,19 +190,61 @@ public class EmailFolderTreeLayoutController implements Initializable {
      */
     public void updateEmailView(TreeItem<FolderBean> folder) {
 
-        FolderBean folderSelected = folder.getValue();
-        try {
-            emailTableLayoutController.updateEmailTable(folderSelected.getFolderID());
-        } catch (SQLException ex) {
-            log.error(ex.getMessage());
+        if (folder != null) {
+            FolderBean folderSelected = folder.getValue();
+            try {
+                emailTableLayoutController.updateEmailTable(folderSelected.getFolderID());
+            } catch (SQLException ex) {
+                log.error(ex.getMessage());
+            }
         }
 
     }
 
+    /**
+     * Creates a new Folder and reloads the Tree 
+     * @param newFolder
+     * @throws SQLException 
+     */
     public void createNewFolder(String newFolder) throws SQLException {
         mailDAO.createFolder(newFolder);
         setUpTree();
         displayTree();
 
+    }
+
+    /**
+     * Deletes a Folder and reloads the Tree.
+     * Will not delete the Root, Inbox, Sent folders.
+     * 
+     * @throws SQLException 
+     */
+    public void deleteFolder() throws SQLException {
+        TreeItem<FolderBean> folderSelected = folderTreeView.getSelectionModel().getSelectedItem();
+        log.info("FolderBean attempt to delete " + folderSelected);
+
+        if (folderSelected != null) {
+            String f_name = folderSelected.getValue().getFolderName();
+            if (f_name.equalsIgnoreCase("Inbox") == false && f_name.equalsIgnoreCase("Sent") == false && f_name.equalsIgnoreCase("Root") == false) {
+                log.info("Delete folder attempt: Not Inbox or Sent folder");
+                mailDAO.removeFolder(folderSelected.getValue().getFolderID());
+                log.info("Folder Deleted: " + f_name);
+                setUpTree();
+                displayTree();
+                folderTreeView.getSelectionModel().selectFirst();
+                emailHtmlLayoutController.requestNewMessage();
+                
+            } else {
+                log.info("Can't delete that folder");
+            }
+        }
+    }
+    
+    /**
+     * Refresh the current table view
+     */
+    public void refreshEmailTableView(){
+        updateEmailView(folderTreeView.getSelectionModel().getSelectedItem());
+        
     }
 }

@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package com.thaivun01.controllers;
 
 import com.thaivun01.beans.ConfigurationBean;
@@ -66,6 +62,7 @@ public class RootClientLayoutController implements Initializable {
     public void initialize(URL location, ResourceBundle resources) {
         log.info("Resources " + resources );
         this.resources = resources;
+        
            
     }    
     
@@ -78,8 +75,10 @@ public class RootClientLayoutController implements Initializable {
            
            //Pass the Email Table controller to the Folder Tree controller
            emailFolderTreeLayoutController.setEmailTableLayoutController(emailTableLayoutController);
+           emailFolderTreeLayoutController.setEmailHtmlLayoutController(emailHtmlLayoutController);
            emailTableLayoutController.setEmailHtmlController(emailHtmlLayoutController);
            emailHtmlLayoutController.setEmailTableController(emailTableLayoutController);
+           emailHtmlLayoutController.setEmailFolderController(emailFolderTreeLayoutController);
            
            try{
                emailFolderTreeLayoutController.displayTree();
@@ -102,6 +101,9 @@ public class RootClientLayoutController implements Initializable {
         this.emailClient = new EmailClient(configBean);
     }
     
+    /**
+     * Load the Folder tree.
+     */
     private void loadLeft(){
         try {
             
@@ -128,6 +130,9 @@ public class RootClientLayoutController implements Initializable {
         }
     }
     
+    /**
+     * Load the Email table.
+     */
     private void loadUpperRight(){
         try {
             FXMLLoader loader = new FXMLLoader();
@@ -155,7 +160,9 @@ public class RootClientLayoutController implements Initializable {
         }
     }
     
-    
+    /**
+     * Load the email view.
+     */
     private void loadLowerRight(){
         try {
             FXMLLoader loader = new FXMLLoader();
@@ -182,19 +189,34 @@ public class RootClientLayoutController implements Initializable {
             
     }
     
-    
+    /**
+     * Getter for the Tree controller
+     * @return EmailFolderTreeLayoutController
+     */
     public EmailFolderTreeLayoutController getTreeController(){
         return emailFolderTreeLayoutController;
     }
     
+    /**
+     * Getter for the Table controller
+     * @return EmailTableLayoutController
+     */
     public EmailTableLayoutController getTableController(){
         return emailTableLayoutController;
     }
     
+    /**
+     * Getter for the Email controller
+     * @return EmailHtmlLayoutController
+     */
     public EmailHtmlLayoutController getEmailController(){
         return emailHtmlLayoutController;
     }
     
+    /**
+     * Receive the stage
+     * @param stage 
+     */
     public void setStage(Stage stage){
         this.stage = stage;
     }
