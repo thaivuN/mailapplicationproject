@@ -34,13 +34,18 @@ public class MainApp extends Application {
         Scene formScene = createConfigForm();
         Scene mainScene = createMainLayout();
         
+        topLevelController.setFormScene(formScene);
+        topLevelController.setFormController(formController);
+        
         if (propertiesExists()){
             
             this.stage.setScene(mainScene);
-            this.stage.setTitle("Mail Application");
+            this.stage.setTitle("E-Hub");
             topLevelController.setStage(stage);
+            topLevelController.setTopScene(mainScene);
             topLevelController.loadConfigBean();
             topLevelController.loadRootLayout();
+            
             
         }
         else{
@@ -70,6 +75,7 @@ public class MainApp extends Application {
         loader.setLocation(this.getClass().getResource("/fxml/ConfigForm.fxml"));
         
         loader.setResources(ResourceBundle.getBundle("BundleResources"));
+        
         
         log.info("Resource " + loader.getResources());
         
