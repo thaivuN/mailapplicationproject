@@ -12,8 +12,9 @@ import static java.nio.file.Files.newOutputStream;
 import static java.nio.file.Paths.get;
 
 /**
- *
- * @author MDThai
+ * Action class used to load or write a Configuration Bean
+ * 
+ * @author Thai-Vu Nguyen
  */
 public class PropertiesManager {
     

@@ -74,6 +74,11 @@ public class MainApp extends Application {
         launch(args);
     }
 
+    /**
+     * Prepares the configuration form scene
+     * @return Scene
+     * @throws Exception 
+     */
     private Scene createConfigForm() throws Exception {
         FXMLLoader loader = new FXMLLoader();
         loader.setLocation(this.getClass().getResource("/fxml/ConfigForm.fxml"));
@@ -92,6 +97,12 @@ public class MainApp extends Application {
         return scene;
     }
     
+    /**
+     * Prepares the main application scene
+     * 
+     * @return Scene
+     * @throws Exception 
+     */
     private Scene createMainLayout () throws Exception{
         FXMLLoader loader = new FXMLLoader();
         loader.setLocation(this.getClass().getResource("/fxml/TopLevelContainerLayout.fxml"));
@@ -108,6 +119,10 @@ public class MainApp extends Application {
         return scene;
     }
     
+    /**
+     * Look at if properties file of the ConfigurationBean exists
+     * @return 
+     */
     private boolean propertiesExists(){
         boolean found = false;
         

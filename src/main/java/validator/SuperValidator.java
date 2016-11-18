@@ -6,8 +6,9 @@ import java.util.List;
 import jodd.mail.EmailAddress;
 
 /**
- *
- * @author MDThai
+ *  Validator class
+ * 
+ * @author Thai-Vu Nguyen
  */
 public class SuperValidator {
 
