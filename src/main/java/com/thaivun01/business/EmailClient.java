@@ -97,7 +97,7 @@ public class EmailClient implements EmailClientFace, Serializable {
                 this.configBean.getSenderEmail(), this.configBean.getSenderPass());
 
         //Setting debug to true
-        imapServer.setProperty("mail.debug", "true");
+        //imapServer.setProperty("mail.debug", "true");
 
         //Create a session
         ReceiveMailSession session = imapServer.createSession();
@@ -245,7 +245,7 @@ public class EmailClient implements EmailClientFace, Serializable {
                         configBean.getSenderPass());
 
         //debug to true
-        smtpServer.debug(true);
+        //smtpServer.debug(true);
 
         //create a sending session
         SendMailSession session = smtpServer.createSession();

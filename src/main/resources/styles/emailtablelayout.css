@@ -5,3 +5,25 @@
 .mainFxmlClass {
 
 }
+
+.colEmailHeader{
+    -fx-border-width: 2px;
+    -fx-border-color: #000000;
+}
+
+.table-view .column-header{
+    -fx-background-color: #5b677a;
+    
+}
+
+.table-view .filler{
+    -fx-background-color: #5b677a;
+}
+
+.table-view .column-drag-header{
+    -fx-background-color: #5b677a;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: white;
+}

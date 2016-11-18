@@ -9,7 +9,6 @@ import java.net.URL;
 import java.sql.SQLException;
 import java.util.Optional;
 import java.util.ResourceBundle;
-import java.util.logging.Level;
 import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -20,7 +19,6 @@ import javafx.scene.control.Alert;
 import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.TextInputDialog;
 import javafx.scene.layout.AnchorPane;
-import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -36,7 +34,6 @@ public class TopLevelContainerLayoutController implements Initializable {
     
     @FXML
     private ResourceBundle resources;
-
     
     @FXML // fx:id="mainBodyAnchorPane"
     private AnchorPane mainBodyAnchorPane; // Value injected by FXMLLoader
@@ -198,6 +195,7 @@ public class TopLevelContainerLayoutController implements Initializable {
             log.error("Could not update emails");
         }
     }
+    
     
     /**
      * Loads the RootClientLayout view.

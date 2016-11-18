@@ -11,13 +11,13 @@
    <children>
       <SplitPane dividerPositions="0.20180722891566266" prefHeight="800.0" prefWidth="1000.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
         <items>
-          <AnchorPane fx:id="leftContainer" minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" />
+          <AnchorPane fx:id="leftContainer" minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" styleClass="backgroundSplit" stylesheets="@../styles/rootclientlayout.css" />
           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
                <children>
-                  <SplitPane dividerPositions="0.26256281407035176" orientation="VERTICAL" prefHeight="798.0" prefWidth="934.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                  <SplitPane dividerPositions="0.25" orientation="VERTICAL" prefHeight="798.0" prefWidth="934.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                     <items>
-                      <AnchorPane fx:id="rightTopContainer" minHeight="0.0" minWidth="0.0" prefHeight="256.0" prefWidth="792.0" />
-                      <AnchorPane fx:id="rightBottomContainer" minHeight="0.0" minWidth="0.0" prefHeight="534.0" prefWidth="792.0" />
+                      <AnchorPane fx:id="rightTopContainer" minHeight="0.0" minWidth="0.0" prefHeight="256.0" prefWidth="792.0" styleClass="backgroundSplit" stylesheets="@../styles/rootclientlayout.css" />
+                      <AnchorPane fx:id="rightBottomContainer" minHeight="0.0" minWidth="0.0" prefHeight="534.0" prefWidth="792.0" styleClass="backgroundSplit" stylesheets="@../styles/rootclientlayout.css" />
                     </items>
                   </SplitPane>
                </children>

@@ -5,3 +5,8 @@
 .mainFxmlClass {
 
 }
+
+.backgroundSplit{
+    -fx-background-color: #5b677a;    
+}
+

@@ -52,7 +52,7 @@ public class ConfigurationBean implements Serializable {
     {   
         this(serverSMTP,imapServerName,senderEmail, senderPass, 
                 "jdbc:mysql://waldo2.dawsoncollege.qc.ca/CS1412998", 
-                "CS1412998", "ecluiste");
+                "", "");
         
     }
     

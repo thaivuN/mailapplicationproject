@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import java.lang.String?>
 <?import java.net.URL?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
@@ -19,14 +20,14 @@
         <URL value="@/styles/emailhtmllayout.css" />
     </stylesheets>
    <children>
-      <ScrollPane AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <ScrollPane stylesheets="@../styles/emailhtmllayout.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <content>
-            <BorderPane prefHeight="591.0" prefWidth="642.0">
+            <BorderPane prefHeight="591.0" prefWidth="642.0" styleClass="htmlBG">
                <center>
                   <HTMLEditor fx:id="messageEmailView" htmlText="&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body contenteditable=&quot;true&quot;&gt;&lt;/body&gt;&lt;/html&gt;" prefHeight="200.0" prefWidth="506.0" BorderPane.alignment="CENTER" />
                </center>
                <top>
-                  <GridPane BorderPane.alignment="CENTER">
+                  <GridPane styleClass="htmlBG" BorderPane.alignment="CENTER">
                     <columnConstraints>
                         <ColumnConstraints hgrow="SOMETIMES" minWidth="2.0" percentWidth="2.0" prefWidth="2.0" />
                         <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" percentWidth="20.0" prefWidth="100.0" />
@@ -65,13 +66,13 @@
                   </GridPane>
                </top>
                <left>
-                  <VBox prefHeight="333.0" prefWidth="20.0" BorderPane.alignment="CENTER" />
+                  <VBox prefHeight="333.0" prefWidth="20.0" styleClass="htmlBG" BorderPane.alignment="CENTER" />
                </left>
                <right>
-                  <VBox prefHeight="333.0" prefWidth="20.0" BorderPane.alignment="CENTER" />
+                  <VBox prefHeight="333.0" prefWidth="20.0" styleClass="htmlBG" BorderPane.alignment="CENTER" />
                </right>
                <bottom>
-                  <GridPane BorderPane.alignment="CENTER">
+                  <GridPane styleClass="htmlBG" BorderPane.alignment="CENTER">
                     <columnConstraints>
                       <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                         <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -91,6 +92,10 @@
                </bottom>
             </BorderPane>
          </content>
+         <styleClass>
+            <String fx:value="emailPane" />
+            <String fx:value="htmlBG" />
+         </styleClass>
       </ScrollPane>
    </children>
     

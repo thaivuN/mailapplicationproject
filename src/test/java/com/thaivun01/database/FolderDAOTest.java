@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.thaivun01.database;
 
 import com.thaivun01.beans.BoostedEmail;
@@ -31,15 +26,16 @@ import org.junit.Test;
 /**
  * Test class serving to test Folder related routines of the EmailDAO class
  * 
- * @author MDThai
+ * @author Thai-Vu Nguyen
  */
-
 public class FolderDAOTest {
     
     private ConfigurationBean config;
     private EmailDAO dao;
     public FolderDAOTest(){
         this.config = new ConfigurationBean("smtp.gmail.com","imap.gmail.com","deltathaivun@gmail.com","evilhipster");
+        config.setDbUser("CS1412998");
+        config.setDbPwd("ecluiste");
         this.dao = new EmailDAOImpl (config);
         
     }

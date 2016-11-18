@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.thaivun01.database;
 import com.thaivun01.beans.BoostedEmail;
 import com.thaivun01.beans.ConfigurationBean;
@@ -41,7 +36,6 @@ import org.junit.runners.Parameterized;
  * @author Thai-Vu Nguyen
  * @version 10/19/2016
  */
-
 public class EmailDAOImplTest {
     
     
@@ -55,6 +49,8 @@ public class EmailDAOImplTest {
     public EmailDAOImplTest() {
         
         this.config = new ConfigurationBean("smtp.gmail.com","imap.gmail.com","deltathaivun@gmail.com","evilhipster");
+        config.setDbUser("CS1412998");
+        config.setDbPwd("ecluiste");
         this.dao = new EmailDAOImpl (config);
         
         

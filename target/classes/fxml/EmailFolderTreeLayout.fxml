@@ -9,6 +9,6 @@
         <URL value="@/styles/emailfoldertreelayout.css" />
     </stylesheets>
    <children>
-      <TreeView fx:id="folderTreeView" prefHeight="486.0" prefWidth="250.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <TreeView fx:id="folderTreeView" prefHeight="486.0" prefWidth="250.0" styleClass="folderPane" stylesheets="@../styles/emailfoldertreelayout.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
    </children>
 </AnchorPane>

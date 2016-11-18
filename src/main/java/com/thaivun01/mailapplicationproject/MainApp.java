@@ -12,6 +12,7 @@ import static javafx.application.Application.launch;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
@@ -54,8 +55,11 @@ public class MainApp extends Application {
             formController.setMainScene(mainScene, stage, topLevelController);
             
         }
-       
-         stage.show();
+        log.info("getClass() "+ getClass());
+        log.info("getClass().getResource(filename) " + getClass().getResource("/images/appicon.png"));
+        stage.getIcons().add(new Image(getClass().getResource("/images/appicon.png").toExternalForm())); 
+        stage.show();
+         
     }
 
     /**
@@ -73,8 +77,9 @@ public class MainApp extends Application {
     private Scene createConfigForm() throws Exception {
         FXMLLoader loader = new FXMLLoader();
         loader.setLocation(this.getClass().getResource("/fxml/ConfigForm.fxml"));
+        log.info("Default locale " + Locale.getDefault());
         
-        loader.setResources(ResourceBundle.getBundle("BundleResources"));
+        loader.setResources(ResourceBundle.getBundle("BundleResources", Locale.getDefault()));
         
         
         log.info("Resource " + loader.getResources());
@@ -91,7 +96,7 @@ public class MainApp extends Application {
         FXMLLoader loader = new FXMLLoader();
         loader.setLocation(this.getClass().getResource("/fxml/TopLevelContainerLayout.fxml"));
         
-        loader.setResources(ResourceBundle.getBundle("BundleResources"));
+        loader.setResources(ResourceBundle.getBundle("BundleResources", Locale.getDefault()));
         log.info("Resource " + loader.getResources());
         
         Parent root = (BorderPane) loader.load();

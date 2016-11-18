@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.thaivun01.business;
 
 
@@ -28,7 +23,6 @@ import org.junit.runners.Parameterized.Parameters;
  * @author Thai-Vu Nguyen
  * @version 9/20/2016
  */
-@Ignore
 @RunWith(Parameterized.class)
 public class EmailClientTest {
     
