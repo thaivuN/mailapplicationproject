@@ -4,11 +4,11 @@ com\thaivun01\database\EmailDAOImpl.class
 com\thaivun01\beans\BoostedEmail.class
 com\thaivun01\database\EmailDAO.class
 com\thaivun01\controllers\EmailFolderTreeLayoutController.class
+com\thaivun01\controllers\EmailHtmlLayoutController$2.class
 com\thaivun01\controllers\EmailTableLayoutController.class
 com\thaivun01\manager\PropertiesManager.class
 com\thaivun01\business\EmailClientFace.class
 com\thaivun01\business\EmailClient.class
-com\thaivun01\mailapplicationproject\FXMLController.class
 com\thaivun01\mailapplicationproject\MainApp.class
 com\thaivun01\controllers\EmailHtmlLayoutController$1.class
 validator\SuperValidator.class
