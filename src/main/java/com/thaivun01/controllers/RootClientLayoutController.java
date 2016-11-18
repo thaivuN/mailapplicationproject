@@ -123,7 +123,8 @@ public class RootClientLayoutController implements Initializable {
             
             //Load the container with the tree view
             leftContainer.getChildren().add(folderTreeView);
-            
+            folderTreeView.prefWidthProperty().bind(leftContainer.widthProperty());
+            folderTreeView.prefHeightProperty().bind(leftContainer.heightProperty());
             
         } catch (IOException ex) {
             log.error(ex.getMessage());

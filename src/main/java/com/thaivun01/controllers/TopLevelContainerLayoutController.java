@@ -219,6 +219,7 @@ public class TopLevelContainerLayoutController implements Initializable {
             rootController.loadComponents();
             mainBodyAnchorPane.getChildren().add(rootPane);
             rootPane.prefWidthProperty().bind(mainBodyAnchorPane.widthProperty());
+            rootPane.prefHeightProperty().bind(mainBodyAnchorPane.heightProperty());
             
             
         } catch (IOException ex) {
