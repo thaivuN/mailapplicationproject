@@ -7,6 +7,7 @@ package com.thaivun01.beans;
 
 import java.time.LocalDateTime;
 import java.time.ZoneId;
+import java.time.format.DateTimeFormatter;
 import java.util.Date;
 import javafx.beans.property.IntegerProperty;
 import javafx.beans.property.SimpleIntegerProperty;
@@ -24,13 +25,19 @@ public class EmailPreview {
     private StringProperty subject;
     private StringProperty dateRecvd;
 
-   
+   /**
+    * Contructor
+    * @param id String
+    * @param from String
+    * @param subject String 
+    * @param date Date
+    */
     public EmailPreview(int id, String from, String subject, Date date) {
         this.id = new SimpleIntegerProperty(id);
         this.subject = new SimpleStringProperty(subject);
         this.from = new SimpleStringProperty(from);
         
-        //Converting to LocalDateTime
+        //Converting from Date to LocalDateTime to String
         if (date == null){
             this.dateRecvd = new SimpleStringProperty("");
         }else{
@@ -86,7 +93,7 @@ public class EmailPreview {
     }
 
     public void setDateRecvd(Date dateRecvd) {
-        //Converting to LocalDateTime
+        //Converting from Date to LocalDateTime to String
         if (dateRecvd == null){
             this.dateRecvd = new SimpleStringProperty("");
         }else{
@@ -95,6 +102,8 @@ public class EmailPreview {
             
         }
     }
+    
+    
      
     
 
